@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["ce6e"],{RNiq:function(n,e,t){"use strict";t.r(e);var a=t("mXGw"),i=t.n(a),u=t("5Yp1");t("huPX");e.default=function(){return i.a.createElement(u.a,{title:"首頁"})}},TqC3:function(n,e,t){(window.__NEXT_P=window.__NEXT_P||[]).push(["/",function(){var n=t("RNiq");return{page:n.default||n}}])}},[["TqC3","5d41","9da1","ad9d"]]]);
