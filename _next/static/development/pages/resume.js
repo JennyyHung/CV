@@ -7484,10 +7484,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fresume&absolutePagePath=D%3A%5CCODE%5CPersonal%5CCV%5CJenny_next%5Csrc%5Cpages%5Cresume.js!./":
-/*!**************************************************************************************************************************************************************************************!*\
-  !*** ../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fresume&absolutePagePath=D%3A%5CCODE%5CPersonal%5CCV%5CJenny_next%5Csrc%5Cpages%5Cresume.js ***!
-  \**************************************************************************************************************************************************************************************/
+/***/ "../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fresume&absolutePagePath=D%3A%5CCODE%5CGit%5CSource%5CRepos%5CCV%5CJenny%5CCV_CODE%5Csrc%5Cpages%5Cresume.js!./":
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fresume&absolutePagePath=D%3A%5CCODE%5CGit%5CSource%5CRepos%5CCV%5CJenny%5CCV_CODE%5Csrc%5Cpages%5Cresume.js ***!
+  \*******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -27032,14 +27032,25 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./assets/data/block.json":
+/*!********************************!*\
+  !*** ./assets/data/block.json ***!
+  \********************************/
+/*! exports provided: 0, 1, 2, 3, 4, default */
+/***/ (function(module) {
+
+module.exports = [{"anchor":"aboutMe","display":"關於我"},{"anchor":"hobbiesAndInterests","display":"興趣 & 嗜好"},{"anchor":"skills","display":"技能"},{"anchor":"test","display":"測試"},{"anchor":"experienceAndEducation","display":"學歷 & 經歷"}];
+
+/***/ }),
+
 /***/ "./assets/data/experience.json":
 /*!*************************************!*\
   !*** ./assets/data/experience.json ***!
   \*************************************/
-/*! exports provided: 0, 1, 2, 3, 4, default */
+/*! exports provided: 0, 1, 2, default */
 /***/ (function(module) {
 
-module.exports = [{"id":10,"tag":"education","date":"2009/09 ~ 2012/06","title":"國立馬公高級中學","subtitle":"資料處理科","logo":"images/education/MK.jpg","content":[{"h5":"班級幹部","list_ol":["99 學年度第一學期體育股長","100 學年度第一學期副班長"]},{"h5":"活動經歷","list_ol":["卡內基訓練","志工訓練研習","聯合音樂會"]},{"h5":"特殊表現","list_ol":["98 學年度第一學期學業成績第一名","99 年度參加澎湖縣志願服務人員基礎教育訓練結業","99 年度參加澎湖縣志願服務人員特殊教育訓練結業","99 年度卡內基訓練人際關係獎","99 年度卡內基訓練最佳熱忱行動計劃","99 年度擔任篩檢宣導園遊會志工,志願服務時數共計六小時","99 年度參加 CCTV 之志工徵選活動,參與時數共計四小時","99 學年度全國音樂比賽高中管樂 B 組優等","100 年度澎湖縣慢飛天使沙灘尋寶活動志工"]},{"h5":"專業證照","list_ol":["商業英語能力測驗檢定第四級","電腦軟體應用丙級","會計事務-人工記帳丙級","TQC中文輸入進階級","網頁設計丙級","電腦軟體應用乙級"]}]},{"id":20,"tag":"education","date":"2012/09 ~ 2016/06","title":"國立高雄第一科技大學","subtitle":"資訊管理系","logo":"images/education/NKFUST.png","content":[{"h5":"活動經歷"},{"h5":"特殊表現"},{"h5":"專業證照"}]},{"id":30,"tag":"work","date":"2015/09 ~ 2016/08","title":"中華航空股份有限公司","subtitle":"產學合作實習生","logo":"images/education/CA.jpg","content":[{"h5":"實習單位","list_ol":["資訊管理處"]},{"h5":"實習部門","list_ol":["航機系統部"]},{"h5":"實習工作項目","list_ul":["瞭解航務及空服相關業務及系統作業流程。","學習系統研發及系統維運之管理方式。","航務及空服相關系統之程式撰寫。"]}],"technologies":["Java","JSP","HTML5","CSS3","JavaScript","jQuery","jQuery Mobile","Oracle"]},{"id":40,"tag":"work","date":"2017/12 ~ 2018/06","title":"台灣全民惠網路科技股份有限公司","subtitle":"程式設計師","logo":"images/education/CMH.PNG","content":[{"h5":"部門","list_ol":["產品開發部"]},{"h5":"工作項目：","list_ol":["後端程式開發","前端頁面撰寫"]}],"technologies":["ASP.NET","C#","HTML5","CSS3","JavaScript","jQuery","VueJs","Bootstrap","MSSQL"]},{"id":50,"tag":"work","date":"2018/06 - present","title":"MamiBuy_紳太國際資訊股份有限公司","subtitle":"網頁程式開發工程師","logo":"images/education/MMB.png","content":[{"h5":"部門","list_ol":["資訊技術部"]},{"h5":"工作項目：","list_ol":["網站前端設計與開發","API設計/建置","資料庫設計/建置"]}],"technologies":["ASP.NET","C#","HTML5","CSS3","JavaScript","ReactJS","Less","Sass","Webpack4","Babel7","npm","MySql"]}];
+module.exports = [{"id":10,"tag":"education","date":"2011/09 ~ 2014/06","title":"復興商工","subtitle":"廣告設計科","logo":"images/education/MK.jpg","content":[{"h5":"活動經歷","list_ol":["103年度 電影欣賞社社長"]},{"h5":"特殊表現","list_ol":["102 學年度復興商工元旦展 數位媒體類 佳作","102 年度 日本亞洲國際兒童影展 入選","103 年度 復興商工畢業展 數位媒體類 第二名"]}]},{"id":20,"tag":"education","date":"2014/09 ~ 2018/06","title":"龍華科技大學","subtitle":"文化創意與數位媒體設計系","logo":"images/education/NKFUST.png","content":[{"h5":"活動經歷","list_ol":["2015~2017 文創系系學會 執行秘書"]},{"h5":"特殊表現","list_ol":["2016 資安系列競賽 佳作"]}]},{"id":30,"tag":"work","date":"2018/07 - present","title":"MamiBuy_紳太國際資訊股份有限公司","subtitle":"影音製作人","logo":"images/education/MMB.png","content":[{"h5":"部門","list_ol":["數位行銷中心"]},{"h5":"工作項目：","list_ol":["開箱影片畫面設計","開箱影片拍攝與剪輯","影片文案撰寫","影片首圖製作","片尾動畫製作"]}],"technologies":["AI","AE","PS","PR"]}];
 
 /***/ }),
 
@@ -27050,7 +27061,7 @@ module.exports = [{"id":10,"tag":"education","date":"2009/09 ~ 2012/06","title":
 /*! exports provided: 0, 1, 2, 3, default */
 /***/ (function(module) {
 
-module.exports = [{"id":10,"name":"AI","percentage":60},{"id":20,"name":"AE","percentage":90},{"id":30,"name":"PS","percentage":70},{"id":40,"name":"3D","percentage":30}];
+module.exports = [{"id":10,"name":"AI","percentage":60},{"id":20,"name":"AE","percentage":90},{"id":30,"name":"PS","percentage":70},{"id":40,"name":"PR","percentage":30}];
 
 /***/ }),
 
@@ -27061,7 +27072,7 @@ module.exports = [{"id":10,"name":"AI","percentage":60},{"id":20,"name":"AE","pe
 /*! exports provided: avatar, name, introduction, default */
 /***/ (function(module) {
 
-module.exports = {"avatar":"images/personal/avatar-test.png","name":"Jenny","introduction":"我畢業於台灣藝術大學多媒體動畫藝術研究所，專長是 UI 與 UX 設計、網頁設計...等視覺設計領域，凡是眼睛所見關於「美」的東西，都是我所熱愛與追求的！"};
+module.exports = {"avatar":"images/personal/avatar-test.png","name":"洪翎真 Jenny Hung","introduction":"從高中開始對影音製作感興趣並進而學習,現在能把自己喜歡的技能當成工作是很幸福的事情！"};
 
 /***/ }),
 
@@ -27072,7 +27083,7 @@ module.exports = {"avatar":"images/personal/avatar-test.png","name":"Jenny","int
 /*! exports provided: 0, 1, 2, 3, default */
 /***/ (function(module) {
 
-module.exports = [{"id":10,"name":"AI","percentage":60},{"id":20,"name":"AE","percentage":90},{"id":30,"name":"PS","percentage":70},{"id":40,"name":"3D","percentage":30}];
+module.exports = [{"id":10,"name":"AI","percentage":60},{"id":20,"name":"AE","percentage":90},{"id":30,"name":"PS","percentage":70},{"id":40,"name":"PR","percentage":30}];
 
 /***/ }),
 
@@ -27310,7 +27321,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _assets_sass_components_circularChart_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/sass/components/circularChart.module.scss */ "./assets/sass/components/circularChart.module.scss");
 /* harmony import */ var _assets_sass_components_circularChart_module_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_sass_components_circularChart_module_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "D:\\CODE\\Personal\\CV\\Jenny_next\\src\\components\\CircularChart.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Jenny\\CV_CODE\\src\\components\\CircularChart.js";
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
@@ -27388,7 +27399,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _CircularChart_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CircularChart.js */ "./components/CircularChart.js");
 /* harmony import */ var _assets_sass_components_hobbies_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/sass/components/hobbies.module.scss */ "./assets/sass/components/hobbies.module.scss");
 /* harmony import */ var _assets_sass_components_hobbies_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_sass_components_hobbies_module_scss__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "D:\\CODE\\Personal\\CV\\Jenny_next\\src\\components\\Hobbies.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Jenny\\CV_CODE\\src\\components\\Hobbies.js";
 
 
 
@@ -27443,7 +27454,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/sass/components/layout.module.scss */ "./assets/sass/components/layout.module.scss");
 /* harmony import */ var _assets_sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_assets_sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_8__);
 
-var _jsxFileName = "D:\\CODE\\Personal\\CV\\Jenny_next\\src\\components\\Layout.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Jenny\\CV_CODE\\src\\components\\Layout.js";
 
 
 
@@ -27807,7 +27818,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/config */ "../node_modules/next-server/dist/lib/runtime-config.js");
 /* harmony import */ var next_config__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_config__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "D:\\CODE\\Personal\\CV\\Jenny_next\\src\\components\\Link\\ActiveLink.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Jenny\\CV_CODE\\src\\components\\Link\\ActiveLink.js";
 
 
 
@@ -27862,7 +27873,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_sass_components_profile_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/sass/components/profile.module.scss */ "./assets/sass/components/profile.module.scss");
 /* harmony import */ var _assets_sass_components_profile_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_sass_components_profile_module_scss__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _assets_utils_common_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/utils/common.js */ "./assets/utils/common.js");
-var _jsxFileName = "D:\\CODE\\Personal\\CV\\Jenny_next\\src\\components\\Profile.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Jenny\\CV_CODE\\src\\components\\Profile.js";
 
 
 
@@ -27954,7 +27965,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _CircularChart_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CircularChart.js */ "./components/CircularChart.js");
 /* harmony import */ var _assets_sass_components_skills_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/sass/components/skills.module.scss */ "./assets/sass/components/skills.module.scss");
 /* harmony import */ var _assets_sass_components_skills_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_sass_components_skills_module_scss__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "D:\\CODE\\Personal\\CV\\Jenny_next\\src\\components\\Skills.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Jenny\\CV_CODE\\src\\components\\Skills.js";
 
 
 
@@ -28020,7 +28031,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "D:\\CODE\\Personal\\CV\\Jenny_next\\src\\components\\VerticalTimeline.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Jenny\\CV_CODE\\src\\components\\VerticalTimeline.js";
 
 
 /* eslint-disable react/no-danger */
@@ -28418,28 +28429,35 @@ var Links = function Links(links) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-lazyload */ "../node_modules/react-lazyload/lib/index.js");
-/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-scrollable-anchor */ "../node_modules/react-scrollable-anchor/lib/index.js");
-/* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _components_Profile__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Profile */ "./components/Profile.js");
-/* harmony import */ var _components_Hobbies__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Hobbies */ "./components/Hobbies.js");
-/* harmony import */ var _components_Skills__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Skills */ "./components/Skills.js");
-/* harmony import */ var _components_VerticalTimeline__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/VerticalTimeline */ "./components/VerticalTimeline.js");
-/* harmony import */ var _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/sass/pages/resume.module.scss */ "./assets/sass/pages/resume.module.scss");
-/* harmony import */ var _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _assets_data_profile_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/data/profile.json */ "./assets/data/profile.json");
-var _assets_data_profile_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../assets/data/profile.json */ "./assets/data/profile.json", 1);
-/* harmony import */ var _assets_data_hobbies_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/data/hobbies.json */ "./assets/data/hobbies.json");
-var _assets_data_hobbies_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../assets/data/hobbies.json */ "./assets/data/hobbies.json", 1);
-/* harmony import */ var _assets_data_skills_json__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/data/skills.json */ "./assets/data/skills.json");
-var _assets_data_skills_json__WEBPACK_IMPORTED_MODULE_11___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../assets/data/skills.json */ "./assets/data/skills.json", 1);
-/* harmony import */ var _assets_data_experience_json__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/data/experience.json */ "./assets/data/experience.json");
-var _assets_data_experience_json__WEBPACK_IMPORTED_MODULE_12___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../assets/data/experience.json */ "./assets/data/experience.json", 1);
-var _jsxFileName = "D:\\CODE\\Personal\\CV\\Jenny_next\\src\\pages\\resume.js";
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "../node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "../node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-lazyload */ "../node_modules/react-lazyload/lib/index.js");
+/* harmony import */ var react_lazyload__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_lazyload__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-scrollable-anchor */ "../node_modules/react-scrollable-anchor/lib/index.js");
+/* harmony import */ var react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _components_Profile__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Profile */ "./components/Profile.js");
+/* harmony import */ var _components_Hobbies__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Hobbies */ "./components/Hobbies.js");
+/* harmony import */ var _components_Skills__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Skills */ "./components/Skills.js");
+/* harmony import */ var _components_VerticalTimeline__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/VerticalTimeline */ "./components/VerticalTimeline.js");
+/* harmony import */ var _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/sass/pages/resume.module.scss */ "./assets/sass/pages/resume.module.scss");
+/* harmony import */ var _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _assets_utils_debounce__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/utils/debounce */ "./assets/utils/debounce.js");
+/* harmony import */ var _assets_data_block_json__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/data/block.json */ "./assets/data/block.json");
+var _assets_data_block_json__WEBPACK_IMPORTED_MODULE_12___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../assets/data/block.json */ "./assets/data/block.json", 1);
+/* harmony import */ var _assets_data_profile_json__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/data/profile.json */ "./assets/data/profile.json");
+var _assets_data_profile_json__WEBPACK_IMPORTED_MODULE_13___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../assets/data/profile.json */ "./assets/data/profile.json", 1);
+/* harmony import */ var _assets_data_hobbies_json__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/data/hobbies.json */ "./assets/data/hobbies.json");
+var _assets_data_hobbies_json__WEBPACK_IMPORTED_MODULE_14___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../assets/data/hobbies.json */ "./assets/data/hobbies.json", 1);
+/* harmony import */ var _assets_data_skills_json__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/data/skills.json */ "./assets/data/skills.json");
+var _assets_data_skills_json__WEBPACK_IMPORTED_MODULE_15___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../assets/data/skills.json */ "./assets/data/skills.json", 1);
+/* harmony import */ var _assets_data_experience_json__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/data/experience.json */ "./assets/data/experience.json");
+var _assets_data_experience_json__WEBPACK_IMPORTED_MODULE_16___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../assets/data/experience.json */ "./assets/data/experience.json", 1);
+
+
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Jenny\\CV_CODE\\src\\pages\\resume.js";
 
 
 /* eslint-disable jsx-a11y/click-events-have-key-events */
@@ -28458,6 +28476,85 @@ var _jsxFileName = "D:\\CODE\\Personal\\CV\\Jenny_next\\src\\pages\\resume.js";
 
 
 
+
+ // Offset all anchors by -60 to account for a fixed header
+// and scroll more quickly than the default 400ms
+
+Object(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_4__["configureAnchors"])({
+  offset: -70,
+  scrollDuration: 400
+});
+
+var ResumePageContent = function ResumePageContent() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(0),
+      _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_useState, 2),
+      preScrollY = _useState2[0],
+      setPreScrollY = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])('aboutMe'),
+      _useState4 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_useState3, 2),
+      navTarget = _useState4[0],
+      setNavTarget = _useState4[1]; // const [isNavTop, setIsNavTop] = useState(true)
+  // const [isNavShow, setIsNavShow] = useState(true)
+
+
+  function getCurrentScrollY() {
+    return window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+  }
+
+  function handleScroll() {
+    setPreScrollY(getCurrentScrollY());
+  }
+
+  function handleTarget(target) {
+    setNavTarget(target);
+  }
+
+  Object(react__WEBPACK_IMPORTED_MODULE_2__["useEffect"])(function () {
+    // const currentScrollY = getCurrentScrollY()
+    // setIsNavTop(currentScrollY < 60)
+    window.addEventListener('scroll', Object(_assets_utils_debounce__WEBPACK_IMPORTED_MODULE_11__["default"])(handleScroll, 15, false));
+    return function () {
+      return window.removeEventListener('scroll', Object(_assets_utils_debounce__WEBPACK_IMPORTED_MODULE_11__["default"])(handleScroll, 15, false));
+    };
+  }, [_assets_utils_debounce__WEBPACK_IMPORTED_MODULE_11__["default"]]);
+  Object(react__WEBPACK_IMPORTED_MODULE_2__["useEffect"])(function () {
+    return function () {
+      var currentScrollY = getCurrentScrollY();
+      var hash = window.location.hash;
+      if (navTarget != hash) setNavTarget(hash); // setIsNavTop(currentScrollY < 60)
+      // setIsNavShow(preScrollY > currentScrollY)
+    };
+  }, [preScrollY]);
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    title: "\u5C65\u6B77",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(AnchorDetect, {
+    navTarget: navTarget,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }), _assets_data_block_json__WEBPACK_IMPORTED_MODULE_12__.map(function (item) {
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Block, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+      key: item.anchor
+    }, item, {
+      handleTarget: handleTarget,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65
+      },
+      __self: this
+    }));
+  }));
+}; // 排序: 依ID順序
+
+
 var compareASC = function compareASC(a, b) {
   var comparison = 0;
 
@@ -28468,7 +28565,8 @@ var compareASC = function compareASC(a, b) {
   }
 
   return comparison;
-};
+}; // 排序: 依ID反序
+
 
 var compareDESC = function compareDESC(a, b) {
   var comparison = 0;
@@ -28480,271 +28578,182 @@ var compareDESC = function compareDESC(a, b) {
   }
 
   return comparison;
-};
+}; // 區塊列
 
-var ResumePageContent = function ResumePageContent() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    title: "\u5C65\u6B77",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AnchorDetect, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    id: "aboutMe",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.block,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.title,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, "\u95DC\u65BC\u6211"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.content,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Profile__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    data: _assets_data_profile_json__WEBPACK_IMPORTED_MODULE_9__,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    id: "hobbiesAndInterests",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.block,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_lazyload__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    height: 200,
-    offset: -100,
-    debounce: 100,
-    once: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.title,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: this
-  }, "\u8208\u8DA3 & \u55DC\u597D"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.content,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Hobbies__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    data: _assets_data_hobbies_json__WEBPACK_IMPORTED_MODULE_10__.sort(compareASC),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    id: "skills",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.block,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_lazyload__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    height: 200,
-    offset: -100,
-    debounce: 100,
-    once: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.title,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
-  }, "\u6280\u80FD"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.content,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Skills__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    data: _assets_data_skills_json__WEBPACK_IMPORTED_MODULE_11__.sort(compareASC),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    id: "experienceAndEducation",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.block,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_lazyload__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    height: 200,
-    offset: -100,
-    debounce: 100,
-    once: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.title,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 83
-    },
-    __self: this
-  }, "\u5B78\u6B77 & \u7D93\u6B77"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.content,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_VerticalTimeline__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    column: 2,
-    data: _assets_data_experience_json__WEBPACK_IMPORTED_MODULE_12__.sort(compareDESC),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 85
-    },
-    __self: this
-  }))))));
-};
 
-var AnchorDetect = function AnchorDetect() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_8___default.a.anchorDetect,
+var Block = function Block(_ref) {
+  var anchor = _ref.anchor,
+      display = _ref.display,
+      handleTarget = _ref.handleTarget;
+
+  // We add this ref to card element and use in onMouseMove event ...
+  // ... to get element's offset and dimensions.
+  // const ref = useRef()
+  // Keep track of whether card is hovered so we can increment ...
+  // ... zIndex to ensure it shows up above other cards when animation causes overlap.
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(false),
+      _useState6 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(_useState5, 2),
+      isHovered = _useState6[0],
+      setHovered = _useState6[1];
+
+  var content = null;
+  var lazyLoadHeight = 200;
+
+  switch (anchor) {
+    case 'aboutMe':
+      lazyLoadHeight = 1000;
+      content = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Profile__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        data: _assets_data_profile_json__WEBPACK_IMPORTED_MODULE_13__,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 109
+        },
+        __self: this
+      });
+      break;
+
+    case 'hobbiesAndInterests':
+      content = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Hobbies__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        data: _assets_data_hobbies_json__WEBPACK_IMPORTED_MODULE_14__.sort(compareASC),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 112
+        },
+        __self: this
+      });
+      break;
+
+    case 'skills':
+      content = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Skills__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        data: _assets_data_skills_json__WEBPACK_IMPORTED_MODULE_15__.sort(compareASC),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115
+        },
+        __self: this
+      });
+      break;
+
+    case 'experienceAndEducation':
+      content = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_VerticalTimeline__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        column: 2,
+        data: _assets_data_experience_json__WEBPACK_IMPORTED_MODULE_16__.sort(compareDESC),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 118
+        },
+        __self: this
+      });
+      break;
+
+    default:
+      content = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 121
+        },
+        __self: this
+      }, "\u6C92\u6709\u7B26\u5408\u7684\u5340\u584A: ", anchor);
+      break;
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_scrollable_anchor__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    id: anchor,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 126
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#aboutMe",
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_10___default.a.block,
+    onMouseEnter: function onMouseEnter() {
+      setHovered(true);
+      handleTarget("#".concat(anchor));
+    },
+    onMouseLeave: function onMouseLeave() {
+      return setHovered(false);
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 127
     },
     __self: this
-  }, "\u95DC\u65BC\u6211"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#hobbiesAndInterests",
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
+    id: "#".concat(anchor),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 135
     },
     __self: this
-  }, "\u8208\u8DA3 & \u55DC\u597D"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#skills",
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_lazyload__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    height: lazyLoadHeight,
+    offset: -10,
+    debounce: 20,
+    once: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 137
     },
     __self: this
-  }, "\u6280\u80FD"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "#experienceAndEducation",
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", {
+    className: _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_10___default.a.title,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 138
     },
     __self: this
-  }, "\u5B78\u6B77 & \u7D93\u6B77"));
+  }, display, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 140
+    },
+    __self: this
+  }, " (", isHovered ? 'IN' : 'OUT', ")")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_10___default.a.content,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 142
+    },
+    __self: this
+  }, content))));
+}; // 導覽列
+
+
+var AnchorDetect = function AnchorDetect(_ref2) {
+  var navTarget = _ref2.navTarget;
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_10___default.a.anchorDetect,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 152
+    },
+    __self: this
+  }, _assets_data_block_json__WEBPACK_IMPORTED_MODULE_12__.map(function (item) {
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+      key: item.anchor,
+      href: "#".concat(item.anchor),
+      className: navTarget === "#".concat(item.anchor) ? _assets_sass_pages_resume_module_scss__WEBPACK_IMPORTED_MODULE_10___default.a.target : null,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 154
+      },
+      __self: this
+    }, item.display);
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (ResumePageContent);
 
 /***/ }),
 
-/***/ 4:
-/*!*****************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fresume&absolutePagePath=D%3A%5CCODE%5CPersonal%5CCV%5CJenny_next%5Csrc%5Cpages%5Cresume.js ***!
-  \*****************************************************************************************************************************************/
+/***/ 1:
+/*!**********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fresume&absolutePagePath=D%3A%5CCODE%5CGit%5CSource%5CRepos%5CCV%5CJenny%5CCV_CODE%5Csrc%5Cpages%5Cresume.js ***!
+  \**********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fresume&absolutePagePath=D%3A%5CCODE%5CPersonal%5CCV%5CJenny_next%5Csrc%5Cpages%5Cresume.js! */"../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fresume&absolutePagePath=D%3A%5CCODE%5CPersonal%5CCV%5CJenny_next%5Csrc%5Cpages%5Cresume.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fresume&absolutePagePath=D%3A%5CCODE%5CGit%5CSource%5CRepos%5CCV%5CJenny%5CCV_CODE%5Csrc%5Cpages%5Cresume.js! */"../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fresume&absolutePagePath=D%3A%5CCODE%5CGit%5CSource%5CRepos%5CCV%5CJenny%5CCV_CODE%5Csrc%5Cpages%5Cresume.js!./");
 
 
 /***/ }),
@@ -28760,5 +28769,5 @@ module.exports = dll_fbfdd5333204b8b31297;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=resume.js.map

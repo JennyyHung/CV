@@ -5591,7 +5591,7 @@ code {
   animation-fill-mode: both;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  margin-bottom: 50px; }
+  padding-bottom: 50px; }
 
 .resume-module_anchorDetect_1vqbz {
   position: fixed;
@@ -5605,11 +5605,40 @@ code {
     content: "";
     display: block;
     position: absolute;
-    top: 15px;
     left: 10%;
     width: 80%;
     height: 5px;
     background-color: #ffd2a9; }
+    @media only screen and (min-width: 1248px) {
+      .resume-module_anchorDetect_1vqbz::before {
+        top: 16px; } }
+    @media only screen and (max-width: 1247px) {
+      .resume-module_anchorDetect_1vqbz::before {
+        top: 16px; } }
+    @media only screen and (max-width: 767px) {
+      .resume-module_anchorDetect_1vqbz::before {
+        top: 18px; } }
+    @media only screen and (max-width: 559px) {
+      .resume-module_anchorDetect_1vqbz::before {
+        top: 20px; } }
+    @media only screen and (max-width: 399px) {
+      .resume-module_anchorDetect_1vqbz::before {
+        top: 20px; } }
+    @media only screen and (min-width: 1248px) {
+      .resume-module_anchorDetect_1vqbz::before {
+        height: 5px; } }
+    @media only screen and (max-width: 1247px) {
+      .resume-module_anchorDetect_1vqbz::before {
+        height: 5px; } }
+    @media only screen and (max-width: 767px) {
+      .resume-module_anchorDetect_1vqbz::before {
+        height: 4px; } }
+    @media only screen and (max-width: 559px) {
+      .resume-module_anchorDetect_1vqbz::before {
+        height: 3px; } }
+    @media only screen and (max-width: 399px) {
+      .resume-module_anchorDetect_1vqbz::before {
+        height: 2px; } }
   .resume-module_anchorDetect_1vqbz a,
   .resume-module_anchorDetect_1vqbz a:link,
   .resume-module_anchorDetect_1vqbz a:visited,
@@ -5623,6 +5652,10 @@ code {
     .resume-module_anchorDetect_1vqbz > *:hover::before {
       -webkit-transform: translate(-50%, -50%) scale(1.5);
               transform: translate(-50%, -50%) scale(1.5); }
+    .resume-module_anchorDetect_1vqbz > *.resume-module_target_Mm19o::before {
+      -webkit-transform: translate(-50%, -50%) scale(1.5);
+              transform: translate(-50%, -50%) scale(1.5);
+      border: 1px solid #f6ccb4; }
     .resume-module_anchorDetect_1vqbz > *::before {
       content: "";
       display: block;
@@ -5632,128 +5665,38 @@ code {
       -webkit-transform: translate(-50%, -50%) scale(1);
               transform: translate(-50%, -50%) scale(1);
       transition: 0.3s ease;
-      width: 10px;
-      height: 10px;
       border-radius: 50%;
       background-color: #ffd2a9; }
-
-.index-module_resume_16N-5 .index-module_main_2hjIS {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative; }
-
-button, button::before, button::after {
-  background: rgba(255, 255, 255, 0.03) -webkit-radial-gradient(center 75%, ellipse contain, #ffffff, rgba(255, 255, 255, 0) 60%);
-  box-shadow: inset 0 0px 6px rgba(0, 0, 0, 0.5), inset 0 -1px 6px rgba(0, 0, 0, 0.6), inset 0 8px 3px rgba(0, 0, 0, 0.3), inset 0 10px 3px rgba(255, 255, 255, 0.1), 0 3px 6px rgba(0, 0, 0, 0.5); }
-
-.index-module_resume_16N-5 {
-  margin: 85px auto;
-  width: 600px;
-  height: 600px; }
-  .index-module_resume_16N-5 .index-module_main_2hjIS {
-    width: 100%;
-    height: 100%; }
-    .index-module_resume_16N-5 .index-module_main_2hjIS::before, .index-module_resume_16N-5 .index-module_main_2hjIS::after {
-      content: '';
-      position: absolute;
-      z-index: 4;
-      width: 600px;
-      height: 600px;
-      top: 50%;
-      left: 50%;
-      background-color: rgba(255, 255, 255, 0.4);
-      border-radius: 45%;
-      -webkit-transform: translate(-50%, -50%) rotate(0);
-              transform: translate(-50%, -50%) rotate(0);
-      -webkit-animation: index-module_rotate_2WyFj 6s linear infinite;
-              animation: index-module_rotate_2WyFj 6s linear infinite; }
-    .index-module_resume_16N-5 .index-module_main_2hjIS::after {
-      background-color: rgba(255, 255, 255, 0.9);
-      border-radius: 47%;
-      -webkit-transform: translate(-50%, -50%) rotate(0);
-              transform: translate(-50%, -50%) rotate(0);
-      -webkit-animation: index-module_rotate_2WyFj 10s linear -5s infinite;
-              animation: index-module_rotate_2WyFj 10s linear -5s infinite; }
-
-@-webkit-keyframes index-module_rotate_2WyFj {
-  50% {
-    -webkit-transform: translate(-50%, -50%) rotate(180deg);
-            transform: translate(-50%, -50%) rotate(180deg); }
-  100% {
-    -webkit-transform: translate(-50%, -50%) rotate(360deg);
-            transform: translate(-50%, -50%) rotate(360deg); } }
-
-@keyframes index-module_rotate_2WyFj {
-  50% {
-    -webkit-transform: translate(-50%, -50%) rotate(180deg);
-            transform: translate(-50%, -50%) rotate(180deg); }
-  100% {
-    -webkit-transform: translate(-50%, -50%) rotate(360deg);
-            transform: translate(-50%, -50%) rotate(360deg); } }
-
-button {
-  z-index: 2;
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  font-size: 1rem;
-  font-weight: bold;
-  outline: none;
-  border: none;
-  border-radius: 50%;
-  transition-duration: 0.4s;
-  transition-timing-function: cubic-bezier(0.56, 1.3, 0.88, 1.1);
-  cursor: pointer; }
-  button:hover {
-    opacity: 1; }
-  button::before, button::after {
-    z-index: 1;
-    content: '';
-    position: absolute;
-    transition-duration: 0.25s;
-    transition-timing-function: ease-out;
-    opacity: 0.1; }
-  button.leftTop {
-    top: 0px;
-    left: -50px;
-    width: 200px;
-    height: 150px;
-    border-radius: 50% 50% 5% 50%; }
-    button.leftTop::before {
-      right: -30px;
-      bottom: 0px;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      opacity: 0.7; }
-    button.leftTop::after {
-      right: 0;
-      bottom: -30px;
-      width: 20px;
-      height: 25px;
-      border-radius: 50%;
-      opacity: 0.5;
-      -webkit-transform: rotate(40deg);
-              transform: rotate(40deg); }
-    button.leftTop:hover {
-      border-radius: 50% 65% 5% 50% / 50% 100% 5% 50%;
-      -webkit-transform: scale(1.3) translate(-30px, -30px);
-              transform: scale(1.3) translate(-30px, -30px); }
-      button.leftTop:hover::before {
-        -webkit-transform: rotate(-15deg) translate(-180px, -180px);
-                transform: rotate(-15deg) translate(-180px, -180px); }
-      button.leftTop:hover::after {
-        -webkit-transform: rotate(-15deg) translate(-180px, -80px);
-                transform: rotate(-15deg) translate(-180px, -80px); }
-  button.rightTop {
-    border-radius: 45% 50% 45% 5%;
-    top: -70px;
-    right: -70px; }
-  button.leftBottom {
-    border-radius: 45% 5% 45% 50%;
-    bottom: -70px;
-    left: -70px; }
+      @media only screen and (min-width: 1248px) {
+        .resume-module_anchorDetect_1vqbz > *::before {
+          width: 10px; } }
+      @media only screen and (max-width: 1247px) {
+        .resume-module_anchorDetect_1vqbz > *::before {
+          width: 10px; } }
+      @media only screen and (max-width: 767px) {
+        .resume-module_anchorDetect_1vqbz > *::before {
+          width: 8px; } }
+      @media only screen and (max-width: 559px) {
+        .resume-module_anchorDetect_1vqbz > *::before {
+          width: 6px; } }
+      @media only screen and (max-width: 399px) {
+        .resume-module_anchorDetect_1vqbz > *::before {
+          width: 5px; } }
+      @media only screen and (min-width: 1248px) {
+        .resume-module_anchorDetect_1vqbz > *::before {
+          height: 10px; } }
+      @media only screen and (max-width: 1247px) {
+        .resume-module_anchorDetect_1vqbz > *::before {
+          height: 10px; } }
+      @media only screen and (max-width: 767px) {
+        .resume-module_anchorDetect_1vqbz > *::before {
+          height: 8px; } }
+      @media only screen and (max-width: 559px) {
+        .resume-module_anchorDetect_1vqbz > *::before {
+          height: 6px; } }
+      @media only screen and (max-width: 399px) {
+        .resume-module_anchorDetect_1vqbz > *::before {
+          height: 5px; } }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
