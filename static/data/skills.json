@@ -1,0 +1,6 @@
+[
+  { "id": 10, "name": "AI", "percentage": 60 },
+  { "id": 20, "name": "AE", "percentage": 90 },
+  { "id": 30, "name": "PS", "percentage": 70 },
+  { "id": 40, "name": "PR", "percentage": 30 }
+]

@@ -9789,19 +9789,20 @@ function (_App) {
   }, {
     key: "render",
     value: function render() {
+      console.log('render MyApp');
       var _this$props = this.props,
           Component = _this$props.Component,
           pageProps = _this$props.pageProps;
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_9__["Container"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 61
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 62
         },
         __self: this
       })));
