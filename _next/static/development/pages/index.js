@@ -22845,7 +22845,7 @@ module.exports = [{"id":10,"name":"AI","percentage":60},{"id":20,"name":"AE","pe
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!***************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CCODE%5CGit%5CSource%5CRepos%5CCV%5CJenny%5CCV_CODE%5Csrc%5Cpages%5Cindex.js ***!
   \***************************************************************************************************************************************************/
@@ -22868,5 +22868,5 @@ module.exports = dll_fbfdd5333204b8b31297;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
