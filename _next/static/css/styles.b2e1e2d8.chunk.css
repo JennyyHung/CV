@@ -8771,8 +8771,6 @@ code {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%); }
 
-/*# sourceMappingURL=style.css.map*/
-
 .scrolltop-module_scrolltop_3owof {
   display: flex;
   justify-content: center;
@@ -8824,7 +8822,7 @@ code {
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background: url(/static/images/background/Protruding-Squares.svg) repeat;
+  background: url(/CV/static/images/background/Protruding-Squares.svg) repeat;
   z-index: -100;
   /* &::after {
     @include pseudo();
@@ -8878,7 +8876,7 @@ code {
     position: relative;
     width: 40px;
     padding-top: 100%;
-    background-image: url(/static/icons/logo.svg);
+    background-image: url(/CV/static/icons/logo.svg);
     background-origin: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -18129,5 +18127,3 @@ code {
     backface-visibility: hidden;
     padding-bottom: 50px; }
 
-
-/*# sourceMappingURL=styles.chunk.css.map*/

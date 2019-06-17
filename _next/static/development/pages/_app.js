@@ -1,5 +1,45 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\_app.js"],{
 
+/***/ "../next-seo.config.js":
+/*!*****************************!*\
+  !*** ../next-seo.config.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+  openGraph: {
+    type: 'website',
+    locale: 'en_IE',
+    url: 'https://jennyyhung.github.io/CV/',
+    site_name: `Jenny's CV`,
+    images: [
+      {
+        url: 'https://jennyyhung.github.io/CV/static/images/hero/about.jpg',
+        width: 600,
+        height: 800,
+        alt: 'About',
+      },
+      {
+        url: 'https://jennyyhung.github.io/CV/static/images/hero/hobbies.jpg',
+        width: 800,
+        height: 600,
+        alt: 'hobbies',
+      },
+    ],
+  },
+  twitter: {
+    handle: '@handle',
+    site: '@site',
+    cardType: 'summary_large_image',
+  },
+});
+
+
+/***/ }),
+
 /***/ "../node_modules/@babel/runtime-corejs2/core-js/array/from.js":
 /*!********************************************************************!*\
   !*** ../node_modules/@babel/runtime-corejs2/core-js/array/from.js ***!
@@ -4565,6 +4605,174 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
+/***/ "../node_modules/next-seo/dist/index.js":
+/*!**********************************************!*\
+  !*** ../node_modules/next-seo/dist/index.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports,"__esModule",{value:!0}),Object.defineProperty(exports,"ArticleJsonLd",{enumerable:!0,get:function a(){return _article.default}}),Object.defineProperty(exports,"BreadcrumbJsonLd",{enumerable:!0,get:function a(){return _breadcrumb.default}}),Object.defineProperty(exports,"BlogJsonLd",{enumerable:!0,get:function a(){return _blog.default}}),Object.defineProperty(exports,"CourseJsonLd",{enumerable:!0,get:function a(){return _course.default}}),Object.defineProperty(exports,"LocalBusinessJsonLd",{enumerable:!0,get:function a(){return _localBusiness.default}}),Object.defineProperty(exports,"LogoJsonLd",{enumerable:!0,get:function a(){return _logo.default}}),Object.defineProperty(exports,"ProductJsonLd",{enumerable:!0,get:function a(){return _product.default}}),Object.defineProperty(exports,"SocialProfileJsonLd",{enumerable:!0,get:function a(){return _socialProfile.default}}),Object.defineProperty(exports,"CorporateContactJsonLd",{enumerable:!0,get:function a(){return _corporateContact.default}}),exports.default=void 0;var _defaultSEO=_interopRequireDefault(__webpack_require__(/*! ./meta/defaultSEO */ "../node_modules/next-seo/dist/meta/defaultSEO.js")),_article=_interopRequireDefault(__webpack_require__(/*! ./jsonld/article */ "../node_modules/next-seo/dist/jsonld/article.js")),_breadcrumb=_interopRequireDefault(__webpack_require__(/*! ./jsonld/breadcrumb */ "../node_modules/next-seo/dist/jsonld/breadcrumb.js")),_blog=_interopRequireDefault(__webpack_require__(/*! ./jsonld/blog */ "../node_modules/next-seo/dist/jsonld/blog.js")),_course=_interopRequireDefault(__webpack_require__(/*! ./jsonld/course */ "../node_modules/next-seo/dist/jsonld/course.js")),_localBusiness=_interopRequireDefault(__webpack_require__(/*! ./jsonld/localBusiness */ "../node_modules/next-seo/dist/jsonld/localBusiness.js")),_logo=_interopRequireDefault(__webpack_require__(/*! ./jsonld/logo */ "../node_modules/next-seo/dist/jsonld/logo.js")),_product=_interopRequireDefault(__webpack_require__(/*! ./jsonld/product */ "../node_modules/next-seo/dist/jsonld/product.js")),_socialProfile=_interopRequireDefault(__webpack_require__(/*! ./jsonld/socialProfile */ "../node_modules/next-seo/dist/jsonld/socialProfile.js")),_corporateContact=_interopRequireDefault(__webpack_require__(/*! ./jsonld/corporateContact */ "../node_modules/next-seo/dist/jsonld/corporateContact.js"));function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var _default=_defaultSEO.default;exports.default=_default;
+
+/***/ }),
+
+/***/ "../node_modules/next-seo/dist/jsonld/article.js":
+/*!*******************************************************!*\
+  !*** ../node_modules/next-seo/dist/jsonld/article.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js")),_propTypes=_interopRequireDefault(__webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "../node_modules/next-server/dist/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "../node_modules/next-seo/dist/utils/markup.js"));function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var ArticleJsonLd=function(a){var b=a.url,c=a.title,d=a.images,e=void 0===d?[]:d,f=a.datePublished,g=a.dateModified,h=void 0===g?null:g,i=a.authorName,j=a.description,k=a.publisherName,l=a.publisherLogo,m="{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"Article\",\n    \"mainEntityOfPage\": {\n      \"@type\": \"WebPage\",\n      \"@id\": \"".concat(b,"\"\n    },\n    \"headline\": \"").concat(c,"\",\n    \"image\": [\n      ").concat(e.map(function(a){return"\"".concat(a,"\"")}),"\n     ],\n    \"datePublished\": \"").concat(f,"\",\n    \"dateModified\": \"").concat(h||f,"\",\n    \"author\": {\n      \"@type\": \"Person\",\n      \"name\": \"").concat(i,"\"\n    },\n    \"publisher\": {\n      \"@type\": \"Organization\",\n      \"name\": \"").concat(k,"\",\n      \"logo\": {\n        \"@type\": \"ImageObject\",\n        \"url\": \"").concat(l,"\"\n      }\n    },\n    \"description\": \"").concat(j,"\"\n  }");return _react.default.createElement(_head.default,null,_react.default.createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup.default)(m),key:"jsonld-article"}))};ArticleJsonLd.defaultProps={dateModified:null},ArticleJsonLd.propTypes={url:_propTypes.default.string.isRequired,title:_propTypes.default.string.isRequired,images:_propTypes.default.array.isRequired,datePublished:_propTypes.default.string.isRequired,dateModified:_propTypes.default.string,authorName:_propTypes.default.string.isRequired,publisherName:_propTypes.default.string.isRequired,publisherLogo:_propTypes.default.string.isRequired,description:_propTypes.default.string.isRequired};var _default=ArticleJsonLd;exports.default=_default;
+
+/***/ }),
+
+/***/ "../node_modules/next-seo/dist/jsonld/blog.js":
+/*!****************************************************!*\
+  !*** ../node_modules/next-seo/dist/jsonld/blog.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js")),_propTypes=_interopRequireDefault(__webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "../node_modules/next-server/dist/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "../node_modules/next-seo/dist/utils/markup.js"));function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var BlogJsonLd=function(a){var b=a.url,c=a.title,d=a.images,e=void 0===d?[]:d,f=a.datePublished,g=a.dateModified,h=void 0===g?null:g,i=a.authorName,j=a.description,k="{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"Blog\",\n    \"mainEntityOfPage\": {\n      \"@type\": \"WebPage\",\n      \"@id\": \"".concat(b,"\"\n    },\n    \"headline\": \"").concat(c,"\",\n    \"image\": [\n      ").concat(e.map(function(a){return"\"".concat(a,"\"")}),"\n     ],\n    \"datePublished\": \"").concat(f,"\",\n    \"dateModified\": \"").concat(h||f,"\",\n    \"author\": {\n      \"@type\": \"Person\",\n      \"name\": \"").concat(i,"\"\n    },\n    \"description\": \"").concat(j,"\"\n  }");return _react.default.createElement(_head.default,null,_react.default.createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup.default)(k),key:"jsonld-blog"}))};BlogJsonLd.defaultProps={dateModified:null},BlogJsonLd.propTypes={url:_propTypes.default.string.isRequired,title:_propTypes.default.string.isRequired,images:_propTypes.default.array.isRequired,datePublished:_propTypes.default.string.isRequired,dateModified:_propTypes.default.string,authorName:_propTypes.default.string.isRequired,description:_propTypes.default.string.isRequired};var _default=BlogJsonLd;exports.default=_default;
+
+/***/ }),
+
+/***/ "../node_modules/next-seo/dist/jsonld/breadcrumb.js":
+/*!**********************************************************!*\
+  !*** ../node_modules/next-seo/dist/jsonld/breadcrumb.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js")),_propTypes=_interopRequireDefault(__webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "../node_modules/next-server/dist/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "../node_modules/next-seo/dist/utils/markup.js"));function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var BreadCrumbJsonLd=function(a){var b=a.itemListElements,c=void 0===b?[]:b,d="{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"BreadcrumbList\",\n    \"itemListElement\": [\n      ".concat(c.map(function(a){return"{\n        \"@type\": \"ListItem\",\n        \"position\": ".concat(a.position,",\n        \"name\": \"").concat(a.name,"\",\n        \"item\": \"").concat(a.item,"\"\n      }")}),"\n     ]\n  }");return _react.default.createElement(_head.default,null,_react.default.createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup.default)(d),key:"jsonld-breadcrumb"}))};BreadCrumbJsonLd.propTypes={itemListElements:_propTypes.default.arrayOf(_propTypes.default.shape({position:_propTypes.default.number.isRequired,name:_propTypes.default.string.isRequired,item:_propTypes.default.string.isRequired})).isRequired};var _default=BreadCrumbJsonLd;exports.default=_default;
+
+/***/ }),
+
+/***/ "../node_modules/next-seo/dist/jsonld/corporateContact.js":
+/*!****************************************************************!*\
+  !*** ../node_modules/next-seo/dist/jsonld/corporateContact.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js")),_propTypes=_interopRequireDefault(__webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "../node_modules/next-server/dist/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "../node_modules/next-seo/dist/utils/markup.js")),_formatIfArray=_interopRequireDefault(__webpack_require__(/*! ../utils/formatIfArray */ "../node_modules/next-seo/dist/utils/formatIfArray.js"));function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var buildContactPoint=function(a){return a.map(function(a){return"{\n    \"@type\": \"ContactPoint\",\n    \"telephone\": \"".concat(a.telephone,"\",\n    \"contactType\": \"").concat(a.contactType,"\"").concat(a.areaServed?",\n    \"areaServed\": ".concat((0,_formatIfArray.default)(a.areaServed)):"").concat(a.availableLanguage?",\n    \"availableLanguage\": ".concat((0,_formatIfArray.default)(a.availableLanguage)):"").concat(a.contactOption?",\n    \"contactOption\": \"".concat(a.contactOption,"\""):"","\n    }")})},CorporateContactJsonLd=function(a){var b=a.url,c=a.logo,d=a.contactPoint,e=void 0===d?[]:d,f="{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Organization\",\n    \"url\": \"".concat(b,"\",\n    ").concat(c?"\"logo\": \"".concat(c,"\","):"","\n    \"contactPoint\": [").concat(buildContactPoint(e),"]\n  }");return _react.default.createElement(_head.default,null,_react.default.createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup.default)(f),key:"jsonld-corporate-contact"}))};CorporateContactJsonLd.defaultProps={logo:null},CorporateContactJsonLd.propTypes={logo:_propTypes.default.string,url:_propTypes.default.string.isRequired,contactPoint:_propTypes.default.arrayOf(_propTypes.default.shape({telephone:_propTypes.default.string.isRequired,contactType:_propTypes.default.string.isRequired,areaServed:_propTypes.default.oneOfType([_propTypes.default.string,_propTypes.default.array]),availableLanguage:_propTypes.default.oneOfType([_propTypes.default.string,_propTypes.default.array]),contactOption:_propTypes.default.string})).isRequired};var _default=CorporateContactJsonLd;exports.default=_default;
+
+/***/ }),
+
+/***/ "../node_modules/next-seo/dist/jsonld/course.js":
+/*!******************************************************!*\
+  !*** ../node_modules/next-seo/dist/jsonld/course.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js")),_propTypes=_interopRequireDefault(__webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "../node_modules/next-server/dist/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "../node_modules/next-seo/dist/utils/markup.js"));function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var CourseJsonLd=function(a){var b=a.courseName,c=a.description,d=a.providerName,e=a.providerUrl,f="{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"Course\",\n    \"name\": \"".concat(b,"\",\n    \"description\": \"").concat(c,"\",\n    \"provider\": {\n      \"@type\": \"Organization\",\n      \"name\": \"").concat(d,"\"").concat(e?",\n      \"sameAs\": \"".concat(e,"\""):"","\n    }\n  }");return _react.default.createElement(_head.default,null,_react.default.createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup.default)(f),key:"jsonld-course"}))};CourseJsonLd.defaultProps={providerUrl:null},CourseJsonLd.propTypes={courseName:_propTypes.default.string.isRequired,providerName:_propTypes.default.string.isRequired,providerUrl:_propTypes.default.string,description:_propTypes.default.string.isRequired};var _default=CourseJsonLd;exports.default=_default;
+
+/***/ }),
+
+/***/ "../node_modules/next-seo/dist/jsonld/localBusiness.js":
+/*!*************************************************************!*\
+  !*** ../node_modules/next-seo/dist/jsonld/localBusiness.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js")),_propTypes=_interopRequireDefault(__webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "../node_modules/next-server/dist/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "../node_modules/next-seo/dist/utils/markup.js")),_formatIfArray=_interopRequireDefault(__webpack_require__(/*! ../utils/formatIfArray */ "../node_modules/next-seo/dist/utils/formatIfArray.js"));function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var buildGeo=function(a){return"\n  \"geo\": {\n    \"@type\": \"GeoCoordinates\",\n    \"latitude\": \"".concat(a.latitude,"\",\n    \"longitude\": \"").concat(a.longitude,"\"\n  },\n")},buildAddress=function(a){return"\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"".concat(a.streetAddress,"\",\n    \"addressLocality\": \"").concat(a.addressLocality,"\",\n    ").concat(a.addressRegion?"\"addressRegion\": \"".concat(a.addressRegion,"\","):"","\n    \"postalCode\": \"").concat(a.postalCode,"\",\n    \"addressCountry\": \"").concat(a.addressCountry,"\"\n  },\n")},LocalBusinessJsonLd=function(a){var b=a.type,c=a.id,d=a.name,e=a.description,f=a.url,g=a.telephone,h=a.address,i=a.geo,j=a.images,k="{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"".concat(b,"\",\n    \"@id\": \"").concat(c,"\",\n    ").concat(e?"\"description\": \"".concat(e,"\","):"","\n    ").concat(f?"\"url\": \"".concat(f,"\","):"","\n    ").concat(g?"\"telephone\": \"".concat(g,"\","):"","\n    ").concat(buildAddress(h),"\n    ").concat(i?"".concat(buildGeo(i)):"","\n    \"image\":").concat((0,_formatIfArray.default)(j),",\n    \"name\": \"").concat(d,"\"\n  }");return _react.default.createElement(_head.default,null,_react.default.createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup.default)(k),key:"jsonld-local-business"}))};LocalBusinessJsonLd.defaultProps={type:"LocalBusiness",description:null,url:null,telephone:null,images:[],geo:null},LocalBusinessJsonLd.propTypes={type:_propTypes.default.string,id:_propTypes.default.string.isRequired,name:_propTypes.default.string.isRequired,description:_propTypes.default.string,url:_propTypes.default.string,telephone:_propTypes.default.string,address:_propTypes.default.shape({streetAddress:_propTypes.default.string.isRequired,addressLocality:_propTypes.default.string.isRequired,addressRegion:_propTypes.default.string,postalCode:_propTypes.default.string.isRequired,addressCountry:_propTypes.default.string.isRequired}).isRequired,geo:_propTypes.default.shape({latitude:_propTypes.default.string.isRequired,longitude:_propTypes.default.string.isRequired}),images:_propTypes.default.oneOfType([_propTypes.default.arrayOf(_propTypes.default.string),_propTypes.default.string])};var _default=LocalBusinessJsonLd;exports.default=_default;
+
+/***/ }),
+
+/***/ "../node_modules/next-seo/dist/jsonld/logo.js":
+/*!****************************************************!*\
+  !*** ../node_modules/next-seo/dist/jsonld/logo.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js")),_propTypes=_interopRequireDefault(__webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "../node_modules/next-server/dist/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "../node_modules/next-seo/dist/utils/markup.js"));function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var LogoJsonLd=function(a){var b=a.url,c=a.logo,d="{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"Organization\",\n    \"url\": \"".concat(b,"\",\n    \"logo\": \"").concat(c,"\"\n  }");return _react.default.createElement(_head.default,null,_react.default.createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup.default)(d),key:"jsonld-logo"}))};LogoJsonLd.propTypes={url:_propTypes.default.string.isRequired,logo:_propTypes.default.string.isRequired};var _default=LogoJsonLd;exports.default=_default;
+
+/***/ }),
+
+/***/ "../node_modules/next-seo/dist/jsonld/product.js":
+/*!*******************************************************!*\
+  !*** ../node_modules/next-seo/dist/jsonld/product.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js")),_propTypes=_interopRequireDefault(__webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "../node_modules/next-server/dist/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "../node_modules/next-seo/dist/utils/markup.js")),_formatIfArray=_interopRequireDefault(__webpack_require__(/*! ../utils/formatIfArray */ "../node_modules/next-seo/dist/utils/formatIfArray.js"));function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var buildBrand=function(a){return"\n  \"brand\": {\n      \"@type\": \"Thing\",\n      \"name\": \"".concat(a,"\"\n    },\n")},buildReviewRating=function(a){return a?"\"reviewRating\": {\n          \"@type\": \"Rating\",\n          ".concat(a.bestRating?"\"bestRating\": \"".concat(a.bestRating,"\","):"","\n          ").concat(a.worstRating?"\"worstRating\": \"".concat(a.worstRating,"\","):"","\n          \"ratingValue\": \"").concat(a.ratingValue,"\"\n        },"):""},buildReviews=function(a){return"\n\"review\": [\n  ".concat(a.map(function(a){return"{\n      \"@type\": \"Review\",\n      ".concat(a.datePublished?"\"datePublished\": \"".concat(a.datePublished,"\","):"","\n      ").concat(a.reviewBody?"\"reviewBody\": \"".concat(a.reviewBody,"\","):"","\n      ").concat(a.name?"\"name\": \"".concat(a.name,"\","):"","\n      ").concat(buildReviewRating(a.reviewRating),"\n      \"author\": \"").concat(a.author,"\"\n  }")}),"],")},buildAggregateRating=function(a){return"\n  \"aggregateRating\": {\n      \"@type\": \"AggregateRating\",\n      \"ratingValue\": \"".concat(a.ratingValue,"\",\n      \"reviewCount\": \"").concat(a.reviewCount,"\"\n    },\n")},buildOffers=function(a){return"\n  \"offers\": {\n    \"@type\": \"Offer\",\n    \"priceCurrency\": \"".concat(a.priceCurrency,"\",\n    ").concat(a.priceValidUntil?"\"priceValidUntil\": \"".concat(a.priceValidUntil,"\","):"","\n    ").concat(a.itemCondition?"\"itemCondition\": \"".concat(a.itemCondition,"\","):"","\n    ").concat(a.availability?"\"availability\": \"".concat(a.availability,"\","):"","\n    ").concat(a.seller?"\n      \"seller\": {\n      \"@type\": \"Organization\",\n      \"name\": \"".concat(a.seller.name,"\"\n    },\n    "):"","\n    \"price\": \"").concat(a.price,"\"\n  },\n")},ProductJsonLd=function(a){var b=a.productName,c=a.images,d=void 0===c?[]:c,e=a.description,f=a.sku,g=a.gtin8,h=a.gtin13,i=a.gtin14,j=a.mpn,k=a.brand,l=a.reviews,m=void 0===l?[]:l,n=a.aggregateRating,o=a.offers,p="{\n    \"@context\": \"http://schema.org/\",\n    \"@type\": \"Product\",\n    \"image\":".concat((0,_formatIfArray.default)(d),",\n    ").concat(e?"\"description\": \"".concat(e,"\","):"","\n    ").concat(j?"\"mpn\": \"".concat(j,"\","):"","\n    ").concat(f?"\"sku\": \"".concat(f,"\","):"","\n    ").concat(g?"\"gtin8\": \"".concat(g,"\","):"","\n    ").concat(h?"\"gtin13\": \"".concat(h,"\","):"","\n    ").concat(i?"\"gtin14\": \"".concat(i,"\","):"","\n    ").concat(k?buildBrand(k):"","\n    ").concat(m.length?buildReviews(m):"","\n    ").concat(n?buildAggregateRating(n):"","\n    ").concat(o?buildOffers(o):"","\n    \"name\": \"").concat(b,"\"\n  }");return _react.default.createElement(_head.default,null,_react.default.createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup.default)(p),key:"jsonld-product"}))};ProductJsonLd.defaultProps={images:[],description:null,brand:null,reviews:[],aggregateRating:null,offers:null,sku:null,gtin8:null,gtin13:null,gtin14:null,mpn:null},ProductJsonLd.propTypes={productName:_propTypes.default.string.isRequired,images:_propTypes.default.oneOfType([_propTypes.default.arrayOf(_propTypes.default.string),_propTypes.default.string]),description:_propTypes.default.string,brand:_propTypes.default.string,reviews:_propTypes.default.arrayOf(_propTypes.default.shape({author:_propTypes.default.string.isRequired,datePublished:_propTypes.default.string,reviewBody:_propTypes.default.string,name:_propTypes.default.string,reviewRating:_propTypes.default.shape({bestRating:_propTypes.default.string,ratingValue:_propTypes.default.string.isRequired,worstRating:_propTypes.default.string})})),aggregateRating:_propTypes.default.shape({ratingValue:_propTypes.default.string.isRequired,reviewCount:_propTypes.default.string.isRequired}),offers:_propTypes.default.shape({price:_propTypes.default.string.isRequired,priceCurrency:_propTypes.default.string.isRequired,priceValidUntil:_propTypes.default.string,itemCondition:_propTypes.default.string,availability:_propTypes.default.string,seller:_propTypes.default.shape({name:_propTypes.default.string.isRequired})}),sku:_propTypes.default.string,gtin8:_propTypes.default.string,gtin13:_propTypes.default.string,gtin14:_propTypes.default.string,mpn:_propTypes.default.string};var _default=ProductJsonLd;exports.default=_default;
+
+/***/ }),
+
+/***/ "../node_modules/next-seo/dist/jsonld/socialProfile.js":
+/*!*************************************************************!*\
+  !*** ../node_modules/next-seo/dist/jsonld/socialProfile.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js")),_propTypes=_interopRequireDefault(__webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "../node_modules/next-server/dist/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "../node_modules/next-seo/dist/utils/markup.js"));function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var SocialProfileJsonLd=function(a){var b=a.type,c=a.name,d=a.url,e=a.sameAs,f=void 0===e?[]:e,g="{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"".concat(b,"\",\n    \"name\": \"").concat(c,"\",\n    \"url\": \"").concat(d,"\",\n    \"sameAs\": [\n      ").concat(f.map(function(a){return"\"".concat(a,"\"")}),"\n     ]\n  }");return _react.default.createElement(_head.default,null,_react.default.createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup.default)(g),key:"jsonld-social"}))};SocialProfileJsonLd.propTypes={type:_propTypes.default.string.isRequired,name:_propTypes.default.string.isRequired,url:_propTypes.default.string.isRequired,sameAs:_propTypes.default.array.isRequired};var _default=SocialProfileJsonLd;exports.default=_default;
+
+/***/ }),
+
+/***/ "../node_modules/next-seo/dist/meta/buildTags.js":
+/*!*******************************************************!*\
+  !*** ../node_modules/next-seo/dist/meta/buildTags.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var _react=_interopRequireDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js"));Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}var defaults={templateTitle:null,noindex:!1,openGraph:{defaultImageHeight:null,defaultImageWidth:null}},buildTags=function(a){var b=[];if(a.titleTemplate&&(defaults.templateTitle=a.titleTemplate),a.title){var c=a.title;defaults.templateTitle&&(c=defaults.templateTitle.replace(/%s/g,function(){return c})),b.push(_react.default.createElement("title",{key:"title"},c))}if(!1===a.noindex?(b.push(_react.default.createElement("meta",{key:"robots",name:"robots",content:"index,follow"})),b.push(_react.default.createElement("meta",{key:"googlebot",name:"googlebot",content:"index,follow"}))):a.noindex||defaults.noindex||a.dangerouslySetAllPagesToNoIndex?(a.dangerouslySetAllPagesToNoIndex&&(defaults.noindex=!0),b.push(_react.default.createElement("meta",{key:"robots",name:"robots",content:"noindex,nofollow"})),b.push(_react.default.createElement("meta",{key:"googlebot",name:"googlebot",content:"noindex,nofollow"}))):(b.push(_react.default.createElement("meta",{key:"robots",name:"robots",content:"index,follow"})),b.push(_react.default.createElement("meta",{key:"googlebot",name:"googlebot",content:"index,follow"}))),a.description&&b.push(_react.default.createElement("meta",{key:"description",name:"description",content:a.description})),a.hasOwnProperty("twitter")&&(a.twitter.cardType&&b.push(_react.default.createElement("meta",{key:"twitter:card",name:"twitter:card",content:a.twitter.cardType})),a.twitter.site&&b.push(_react.default.createElement("meta",{key:"twitter:site",name:"twitter:site",content:a.twitter.site})),a.twitter.handle&&b.push(_react.default.createElement("meta",{key:"twitter:creator",name:"twitter:creator",content:a.twitter.handle}))),a.hasOwnProperty("facebook")&&a.facebook.appId&&b.push(_react.default.createElement("meta",{key:"fb:app_id",property:"fb:app_id",content:a.facebook.appId})),a.hasOwnProperty("openGraph")){if(a.openGraph.url&&b.push(_react.default.createElement("meta",{key:"og:url",property:"og:url",content:a.openGraph.url})),a.openGraph.type){var d=a.openGraph.type.toLowerCase();b.push(_react.default.createElement("meta",{key:"og:type",property:"og:type",content:d})),"profile"===d&&a.openGraph.profile?(a.openGraph.profile.firstName&&b.push(_react.default.createElement("meta",{key:"profile:first_name",property:"profile:first_name",content:a.openGraph.profile.firstName})),a.openGraph.profile.lastName&&b.push(_react.default.createElement("meta",{key:"profile:last_name",property:"profile:last_name",content:a.openGraph.profile.lastName})),a.openGraph.profile.username&&b.push(_react.default.createElement("meta",{key:"profile:username",property:"profile:username",content:a.openGraph.profile.username})),a.openGraph.profile.gender&&b.push(_react.default.createElement("meta",{key:"profile:gender",property:"profile:gender",content:a.openGraph.profile.gender}))):"book"===d&&a.openGraph.book?(a.openGraph.book.authors&&a.openGraph.book.authors.length&&a.openGraph.book.authors.forEach(function(a,c){b.push(_react.default.createElement("meta",{key:"book:author:0".concat(c),property:"book:author",content:a}))}),a.openGraph.book.isbn&&b.push(_react.default.createElement("meta",{key:"book:isbn",property:"book:isbn",content:a.openGraph.book.isbn})),a.openGraph.book.releaseDate&&b.push(_react.default.createElement("meta",{key:"book:release_date",property:"book:release_date",content:a.openGraph.book.releaseDate})),a.openGraph.book.tags&&a.openGraph.book.tags.length&&a.openGraph.book.tags.forEach(function(a,c){b.push(_react.default.createElement("meta",{key:"book:tag:0".concat(c),property:"book:tag",content:a}))})):"article"===d&&a.openGraph.article&&(a.openGraph.article.publishedTime&&b.push(_react.default.createElement("meta",{key:"article:published_time",property:"article:published_time",content:a.openGraph.article.publishedTime})),a.openGraph.article.modifiedTime&&b.push(_react.default.createElement("meta",{key:"article:modified_time",property:"article:modified_time",content:a.openGraph.article.modifiedTime})),a.openGraph.article.expirationTime&&b.push(_react.default.createElement("meta",{key:"article:expiration_time",property:"article:expiration_time",content:a.openGraph.article.expirationTime})),a.openGraph.article.authors&&a.openGraph.article.authors.length&&a.openGraph.article.authors.forEach(function(a,c){b.push(_react.default.createElement("meta",{key:"article:author:0".concat(c),property:"article:author",content:a}))}),a.openGraph.article.section&&b.push(_react.default.createElement("meta",{key:"article:section",property:"article:section",content:a.openGraph.article.section})),a.openGraph.article.tags&&a.openGraph.article.tags.length&&a.openGraph.article.tags.forEach(function(a,c){b.push(_react.default.createElement("meta",{key:"article:tag:0".concat(c),property:"article:tag",content:a}))}))}a.openGraph.title&&b.push(_react.default.createElement("meta",{key:"og:title",property:"og:title",content:a.openGraph.title})),a.openGraph.description&&b.push(_react.default.createElement("meta",{key:"og:description",property:"og:description",content:a.openGraph.description})),a.openGraph.images&&a.openGraph.images.length&&a.openGraph.images.forEach(function(c,d){b.push(_react.default.createElement("meta",{key:"og:image:0".concat(d),property:"og:image",content:c.url})),c.alt&&b.push(_react.default.createElement("meta",{key:"og:image:alt0".concat(d),property:"og:image:alt",content:c.alt})),c.width?b.push(_react.default.createElement("meta",{key:"og:image:width0".concat(d),property:"og:image:width",content:c.width})):(defaults.openGraph.defaultImageWidth||a.openGraph.defaultImageWidth)&&(a.openGraph.defaultImageWidth&&(defaults.openGraph.defaultImageWidth=a.openGraph.defaultImageWidth),b.push(_react.default.createElement("meta",{key:"og:image:width0".concat(d),property:"og:image:width",content:defaults.openGraph.defaultImageWidth}))),c.height?b.push(_react.default.createElement("meta",{key:"og:image:height".concat(d),property:"og:image:height",content:c.height})):(defaults.openGraph.defaultImageHeight||a.openGraph.defaultImageHeight)&&(a.openGraph.defaultImageHeight&&(defaults.openGraph.defaultImageHeight=a.openGraph.defaultImageHeight),b.push(_react.default.createElement("meta",{key:"og:image:height".concat(d),property:"og:image:height",content:defaults.openGraph.defaultImageHeight})))}),a.openGraph.locale&&b.push(_react.default.createElement("meta",{key:"og:locale",property:"og:locale",content:a.openGraph.locale})),a.openGraph.site_name&&b.push(_react.default.createElement("meta",{key:"og:site_name",property:"og:site_name",content:a.openGraph.site_name}))}return a.canonical&&b.push(_react.default.createElement("link",{rel:"canonical",href:a.canonical,key:"canonical"})),b},_default=buildTags;exports.default=_default;
+
+/***/ }),
+
+/***/ "../node_modules/next-seo/dist/meta/defaultSEO.js":
+/*!********************************************************!*\
+  !*** ../node_modules/next-seo/dist/meta/defaultSEO.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _head=_interopRequireDefault(__webpack_require__(/*! next/head */ "../node_modules/next-server/dist/lib/head.js")),_propTypes=_interopRequireDefault(__webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js")),_react=_interopRequireDefault(__webpack_require__(/*! react */ "../node_modules/react/index.js")),_buildTags=_interopRequireDefault(__webpack_require__(/*! ./buildTags */ "../node_modules/next-seo/dist/meta/buildTags.js"));function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}function _typeof(a){return _typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(a){return typeof a}:function(a){return a&&"function"==typeof Symbol&&a.constructor===Symbol&&a!==Symbol.prototype?"symbol":typeof a},_typeof(a)}function _classCallCheck(a,b){if(!(a instanceof b))throw new TypeError("Cannot call a class as a function")}function _defineProperties(a,b){for(var c,d=0;d<b.length;d++)c=b[d],c.enumerable=c.enumerable||!1,c.configurable=!0,"value"in c&&(c.writable=!0),Object.defineProperty(a,c.key,c)}function _createClass(a,b,c){return b&&_defineProperties(a.prototype,b),c&&_defineProperties(a,c),a}function _possibleConstructorReturn(a,b){return b&&("object"===_typeof(b)||"function"==typeof b)?b:_assertThisInitialized(a)}function _assertThisInitialized(a){if(void 0===a)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return a}function _getPrototypeOf(a){return _getPrototypeOf=Object.setPrototypeOf?Object.getPrototypeOf:function(a){return a.__proto__||Object.getPrototypeOf(a)},_getPrototypeOf(a)}function _inherits(a,b){if("function"!=typeof b&&null!==b)throw new TypeError("Super expression must either be null or a function");a.prototype=Object.create(b&&b.prototype,{constructor:{value:a,writable:!0,configurable:!0}}),b&&_setPrototypeOf(a,b)}function _setPrototypeOf(a,b){return _setPrototypeOf=Object.setPrototypeOf||function(a,b){return a.__proto__=b,a},_setPrototypeOf(a,b)}var DefaultSeo=function(a){function b(a){var c;if(_classCallCheck(this,b),c=_possibleConstructorReturn(this,_getPrototypeOf(b).call(this,a)),!a.config)throw new Error("[next-seo] You must supply an SEO configuration");return c}return _inherits(b,a),_createClass(b,[{key:"render",value:function b(){var a=this.props.config;return _react.default.createElement(_head.default,null,(0,_buildTags.default)(a))}}]),b}(_react.default.Component);DefaultSeo.propTypes={config:_propTypes.default.object.isRequired};var _default=DefaultSeo;exports.default=_default;
+
+/***/ }),
+
+/***/ "../node_modules/next-seo/dist/utils/formatIfArray.js":
+/*!************************************************************!*\
+  !*** ../node_modules/next-seo/dist/utils/formatIfArray.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var formatIfArray=function(a){return Array.isArray(a)?"[".concat(a.map(function(a){return"\"".concat(a,"\"")}),"]"):"\"".concat(a,"\"")},_default=formatIfArray;exports.default=_default;
+
+/***/ }),
+
+/***/ "../node_modules/next-seo/dist/utils/markup.js":
+/*!*****************************************************!*\
+  !*** ../node_modules/next-seo/dist/utils/markup.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var markup=function(a){return{__html:a}},_default=markup;exports.default=_default;
+
+/***/ }),
+
 /***/ "../node_modules/next-server/dist/lib/amp.js":
 /*!***************************************************!*\
   !*** ../node_modules/next-server/dist/lib/amp.js ***!
@@ -7713,6 +7921,657 @@ module.exports = (__webpack_require__(/*! dll-reference dll_fbfdd5333204b8b31297
 
 /***/ }),
 
+/***/ "../node_modules/prop-types/checkPropTypes.js":
+/*!**********************************************************************************************************!*\
+  !*** delegated ../node_modules/prop-types/checkPropTypes.js from dll-reference dll_fbfdd5333204b8b31297 ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(/*! dll-reference dll_fbfdd5333204b8b31297 */ "dll-reference dll_fbfdd5333204b8b31297"))("../node_modules/prop-types/checkPropTypes.js");
+
+/***/ }),
+
+/***/ "../node_modules/prop-types/factoryWithTypeCheckers.js":
+/*!*************************************************************!*\
+  !*** ../node_modules/prop-types/factoryWithTypeCheckers.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+var ReactIs = __webpack_require__(/*! react-is */ "../node_modules/react-is/index.js");
+var assign = __webpack_require__(/*! object-assign */ "../node_modules/object-assign/index.js");
+
+var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "../node_modules/prop-types/lib/ReactPropTypesSecret.js");
+var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "../node_modules/prop-types/checkPropTypes.js");
+
+var has = Function.call.bind(Object.prototype.hasOwnProperty);
+var printWarning = function() {};
+
+if (true) {
+  printWarning = function(text) {
+    var message = 'Warning: ' + text;
+    if (typeof console !== 'undefined') {
+      console.error(message);
+    }
+    try {
+      // --- Welcome to debugging React ---
+      // This error was thrown as a convenience so that you can use this stack
+      // to find the callsite that caused this warning to fire.
+      throw new Error(message);
+    } catch (x) {}
+  };
+}
+
+function emptyFunctionThatReturnsNull() {
+  return null;
+}
+
+module.exports = function(isValidElement, throwOnDirectAccess) {
+  /* global Symbol */
+  var ITERATOR_SYMBOL = typeof Symbol === 'function' && Symbol.iterator;
+  var FAUX_ITERATOR_SYMBOL = '@@iterator'; // Before Symbol spec.
+
+  /**
+   * Returns the iterator method function contained on the iterable object.
+   *
+   * Be sure to invoke the function with the iterable as context:
+   *
+   *     var iteratorFn = getIteratorFn(myIterable);
+   *     if (iteratorFn) {
+   *       var iterator = iteratorFn.call(myIterable);
+   *       ...
+   *     }
+   *
+   * @param {?object} maybeIterable
+   * @return {?function}
+   */
+  function getIteratorFn(maybeIterable) {
+    var iteratorFn = maybeIterable && (ITERATOR_SYMBOL && maybeIterable[ITERATOR_SYMBOL] || maybeIterable[FAUX_ITERATOR_SYMBOL]);
+    if (typeof iteratorFn === 'function') {
+      return iteratorFn;
+    }
+  }
+
+  /**
+   * Collection of methods that allow declaration and validation of props that are
+   * supplied to React components. Example usage:
+   *
+   *   var Props = require('ReactPropTypes');
+   *   var MyArticle = React.createClass({
+   *     propTypes: {
+   *       // An optional string prop named "description".
+   *       description: Props.string,
+   *
+   *       // A required enum prop named "category".
+   *       category: Props.oneOf(['News','Photos']).isRequired,
+   *
+   *       // A prop named "dialog" that requires an instance of Dialog.
+   *       dialog: Props.instanceOf(Dialog).isRequired
+   *     },
+   *     render: function() { ... }
+   *   });
+   *
+   * A more formal specification of how these methods are used:
+   *
+   *   type := array|bool|func|object|number|string|oneOf([...])|instanceOf(...)
+   *   decl := ReactPropTypes.{type}(.isRequired)?
+   *
+   * Each and every declaration produces a function with the same signature. This
+   * allows the creation of custom validation functions. For example:
+   *
+   *  var MyLink = React.createClass({
+   *    propTypes: {
+   *      // An optional string or URI prop named "href".
+   *      href: function(props, propName, componentName) {
+   *        var propValue = props[propName];
+   *        if (propValue != null && typeof propValue !== 'string' &&
+   *            !(propValue instanceof URI)) {
+   *          return new Error(
+   *            'Expected a string or an URI for ' + propName + ' in ' +
+   *            componentName
+   *          );
+   *        }
+   *      }
+   *    },
+   *    render: function() {...}
+   *  });
+   *
+   * @internal
+   */
+
+  var ANONYMOUS = '<<anonymous>>';
+
+  // Important!
+  // Keep this list in sync with production version in `./factoryWithThrowingShims.js`.
+  var ReactPropTypes = {
+    array: createPrimitiveTypeChecker('array'),
+    bool: createPrimitiveTypeChecker('boolean'),
+    func: createPrimitiveTypeChecker('function'),
+    number: createPrimitiveTypeChecker('number'),
+    object: createPrimitiveTypeChecker('object'),
+    string: createPrimitiveTypeChecker('string'),
+    symbol: createPrimitiveTypeChecker('symbol'),
+
+    any: createAnyTypeChecker(),
+    arrayOf: createArrayOfTypeChecker,
+    element: createElementTypeChecker(),
+    elementType: createElementTypeTypeChecker(),
+    instanceOf: createInstanceTypeChecker,
+    node: createNodeChecker(),
+    objectOf: createObjectOfTypeChecker,
+    oneOf: createEnumTypeChecker,
+    oneOfType: createUnionTypeChecker,
+    shape: createShapeTypeChecker,
+    exact: createStrictShapeTypeChecker,
+  };
+
+  /**
+   * inlined Object.is polyfill to avoid requiring consumers ship their own
+   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
+   */
+  /*eslint-disable no-self-compare*/
+  function is(x, y) {
+    // SameValue algorithm
+    if (x === y) {
+      // Steps 1-5, 7-10
+      // Steps 6.b-6.e: +0 != -0
+      return x !== 0 || 1 / x === 1 / y;
+    } else {
+      // Step 6.a: NaN == NaN
+      return x !== x && y !== y;
+    }
+  }
+  /*eslint-enable no-self-compare*/
+
+  /**
+   * We use an Error-like object for backward compatibility as people may call
+   * PropTypes directly and inspect their output. However, we don't use real
+   * Errors anymore. We don't inspect their stack anyway, and creating them
+   * is prohibitively expensive if they are created too often, such as what
+   * happens in oneOfType() for any type before the one that matched.
+   */
+  function PropTypeError(message) {
+    this.message = message;
+    this.stack = '';
+  }
+  // Make `instanceof Error` still work for returned errors.
+  PropTypeError.prototype = Error.prototype;
+
+  function createChainableTypeChecker(validate) {
+    if (true) {
+      var manualPropTypeCallCache = {};
+      var manualPropTypeWarningCount = 0;
+    }
+    function checkType(isRequired, props, propName, componentName, location, propFullName, secret) {
+      componentName = componentName || ANONYMOUS;
+      propFullName = propFullName || propName;
+
+      if (secret !== ReactPropTypesSecret) {
+        if (throwOnDirectAccess) {
+          // New behavior only for users of `prop-types` package
+          var err = new Error(
+            'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
+            'Use `PropTypes.checkPropTypes()` to call them. ' +
+            'Read more at http://fb.me/use-check-prop-types'
+          );
+          err.name = 'Invariant Violation';
+          throw err;
+        } else if ( true && typeof console !== 'undefined') {
+          // Old behavior for people using React.PropTypes
+          var cacheKey = componentName + ':' + propName;
+          if (
+            !manualPropTypeCallCache[cacheKey] &&
+            // Avoid spamming the console because they are often not actionable except for lib authors
+            manualPropTypeWarningCount < 3
+          ) {
+            printWarning(
+              'You are manually calling a React.PropTypes validation ' +
+              'function for the `' + propFullName + '` prop on `' + componentName  + '`. This is deprecated ' +
+              'and will throw in the standalone `prop-types` package. ' +
+              'You may be seeing this warning due to a third-party PropTypes ' +
+              'library. See https://fb.me/react-warning-dont-call-proptypes ' + 'for details.'
+            );
+            manualPropTypeCallCache[cacheKey] = true;
+            manualPropTypeWarningCount++;
+          }
+        }
+      }
+      if (props[propName] == null) {
+        if (isRequired) {
+          if (props[propName] === null) {
+            return new PropTypeError('The ' + location + ' `' + propFullName + '` is marked as required ' + ('in `' + componentName + '`, but its value is `null`.'));
+          }
+          return new PropTypeError('The ' + location + ' `' + propFullName + '` is marked as required in ' + ('`' + componentName + '`, but its value is `undefined`.'));
+        }
+        return null;
+      } else {
+        return validate(props, propName, componentName, location, propFullName);
+      }
+    }
+
+    var chainedCheckType = checkType.bind(null, false);
+    chainedCheckType.isRequired = checkType.bind(null, true);
+
+    return chainedCheckType;
+  }
+
+  function createPrimitiveTypeChecker(expectedType) {
+    function validate(props, propName, componentName, location, propFullName, secret) {
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== expectedType) {
+        // `propValue` being instance of, say, date/regexp, pass the 'object'
+        // check, but we can offer a more precise error message here rather than
+        // 'of type `object`'.
+        var preciseType = getPreciseType(propValue);
+
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + preciseType + '` supplied to `' + componentName + '`, expected ') + ('`' + expectedType + '`.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createAnyTypeChecker() {
+    return createChainableTypeChecker(emptyFunctionThatReturnsNull);
+  }
+
+  function createArrayOfTypeChecker(typeChecker) {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (typeof typeChecker !== 'function') {
+        return new PropTypeError('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside arrayOf.');
+      }
+      var propValue = props[propName];
+      if (!Array.isArray(propValue)) {
+        var propType = getPropType(propValue);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an array.'));
+      }
+      for (var i = 0; i < propValue.length; i++) {
+        var error = typeChecker(propValue, i, componentName, location, propFullName + '[' + i + ']', ReactPropTypesSecret);
+        if (error instanceof Error) {
+          return error;
+        }
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createElementTypeChecker() {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      if (!isValidElement(propValue)) {
+        var propType = getPropType(propValue);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected a single ReactElement.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createElementTypeTypeChecker() {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      if (!ReactIs.isValidElementType(propValue)) {
+        var propType = getPropType(propValue);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected a single ReactElement type.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createInstanceTypeChecker(expectedClass) {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (!(props[propName] instanceof expectedClass)) {
+        var expectedClassName = expectedClass.name || ANONYMOUS;
+        var actualClassName = getClassName(props[propName]);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + actualClassName + '` supplied to `' + componentName + '`, expected ') + ('instance of `' + expectedClassName + '`.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createEnumTypeChecker(expectedValues) {
+    if (!Array.isArray(expectedValues)) {
+      if (true) {
+        if (arguments.length > 1) {
+          printWarning(
+            'Invalid arguments supplied to oneOf, expected an array, got ' + arguments.length + ' arguments. ' +
+            'A common mistake is to write oneOf(x, y, z) instead of oneOf([x, y, z]).'
+          );
+        } else {
+          printWarning('Invalid argument supplied to oneOf, expected an array.');
+        }
+      }
+      return emptyFunctionThatReturnsNull;
+    }
+
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      for (var i = 0; i < expectedValues.length; i++) {
+        if (is(propValue, expectedValues[i])) {
+          return null;
+        }
+      }
+
+      var valuesString = JSON.stringify(expectedValues, function replacer(key, value) {
+        var type = getPreciseType(value);
+        if (type === 'symbol') {
+          return String(value);
+        }
+        return value;
+      });
+      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of value `' + String(propValue) + '` ' + ('supplied to `' + componentName + '`, expected one of ' + valuesString + '.'));
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createObjectOfTypeChecker(typeChecker) {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (typeof typeChecker !== 'function') {
+        return new PropTypeError('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside objectOf.');
+      }
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== 'object') {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an object.'));
+      }
+      for (var key in propValue) {
+        if (has(propValue, key)) {
+          var error = typeChecker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
+          if (error instanceof Error) {
+            return error;
+          }
+        }
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createUnionTypeChecker(arrayOfTypeCheckers) {
+    if (!Array.isArray(arrayOfTypeCheckers)) {
+       true ? printWarning('Invalid argument supplied to oneOfType, expected an instance of array.') : undefined;
+      return emptyFunctionThatReturnsNull;
+    }
+
+    for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
+      var checker = arrayOfTypeCheckers[i];
+      if (typeof checker !== 'function') {
+        printWarning(
+          'Invalid argument supplied to oneOfType. Expected an array of check functions, but ' +
+          'received ' + getPostfixForTypeWarning(checker) + ' at index ' + i + '.'
+        );
+        return emptyFunctionThatReturnsNull;
+      }
+    }
+
+    function validate(props, propName, componentName, location, propFullName) {
+      for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
+        var checker = arrayOfTypeCheckers[i];
+        if (checker(props, propName, componentName, location, propFullName, ReactPropTypesSecret) == null) {
+          return null;
+        }
+      }
+
+      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`.'));
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createNodeChecker() {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (!isNode(props[propName])) {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`, expected a ReactNode.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createShapeTypeChecker(shapeTypes) {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== 'object') {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
+      }
+      for (var key in shapeTypes) {
+        var checker = shapeTypes[key];
+        if (!checker) {
+          continue;
+        }
+        var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
+        if (error) {
+          return error;
+        }
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createStrictShapeTypeChecker(shapeTypes) {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== 'object') {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
+      }
+      // We need to check all keys in case some are required but missing from
+      // props.
+      var allKeys = assign({}, props[propName], shapeTypes);
+      for (var key in allKeys) {
+        var checker = shapeTypes[key];
+        if (!checker) {
+          return new PropTypeError(
+            'Invalid ' + location + ' `' + propFullName + '` key `' + key + '` supplied to `' + componentName + '`.' +
+            '\nBad object: ' + JSON.stringify(props[propName], null, '  ') +
+            '\nValid keys: ' +  JSON.stringify(Object.keys(shapeTypes), null, '  ')
+          );
+        }
+        var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
+        if (error) {
+          return error;
+        }
+      }
+      return null;
+    }
+
+    return createChainableTypeChecker(validate);
+  }
+
+  function isNode(propValue) {
+    switch (typeof propValue) {
+      case 'number':
+      case 'string':
+      case 'undefined':
+        return true;
+      case 'boolean':
+        return !propValue;
+      case 'object':
+        if (Array.isArray(propValue)) {
+          return propValue.every(isNode);
+        }
+        if (propValue === null || isValidElement(propValue)) {
+          return true;
+        }
+
+        var iteratorFn = getIteratorFn(propValue);
+        if (iteratorFn) {
+          var iterator = iteratorFn.call(propValue);
+          var step;
+          if (iteratorFn !== propValue.entries) {
+            while (!(step = iterator.next()).done) {
+              if (!isNode(step.value)) {
+                return false;
+              }
+            }
+          } else {
+            // Iterator will provide entry [k,v] tuples rather than values.
+            while (!(step = iterator.next()).done) {
+              var entry = step.value;
+              if (entry) {
+                if (!isNode(entry[1])) {
+                  return false;
+                }
+              }
+            }
+          }
+        } else {
+          return false;
+        }
+
+        return true;
+      default:
+        return false;
+    }
+  }
+
+  function isSymbol(propType, propValue) {
+    // Native Symbol.
+    if (propType === 'symbol') {
+      return true;
+    }
+
+    // falsy value can't be a Symbol
+    if (!propValue) {
+      return false;
+    }
+
+    // 19.4.3.5 Symbol.prototype[@@toStringTag] === 'Symbol'
+    if (propValue['@@toStringTag'] === 'Symbol') {
+      return true;
+    }
+
+    // Fallback for non-spec compliant Symbols which are polyfilled.
+    if (typeof Symbol === 'function' && propValue instanceof Symbol) {
+      return true;
+    }
+
+    return false;
+  }
+
+  // Equivalent of `typeof` but with special handling for array and regexp.
+  function getPropType(propValue) {
+    var propType = typeof propValue;
+    if (Array.isArray(propValue)) {
+      return 'array';
+    }
+    if (propValue instanceof RegExp) {
+      // Old webkits (at least until Android 4.0) return 'function' rather than
+      // 'object' for typeof a RegExp. We'll normalize this here so that /bla/
+      // passes PropTypes.object.
+      return 'object';
+    }
+    if (isSymbol(propType, propValue)) {
+      return 'symbol';
+    }
+    return propType;
+  }
+
+  // This handles more types than `getPropType`. Only used for error messages.
+  // See `createPrimitiveTypeChecker`.
+  function getPreciseType(propValue) {
+    if (typeof propValue === 'undefined' || propValue === null) {
+      return '' + propValue;
+    }
+    var propType = getPropType(propValue);
+    if (propType === 'object') {
+      if (propValue instanceof Date) {
+        return 'date';
+      } else if (propValue instanceof RegExp) {
+        return 'regexp';
+      }
+    }
+    return propType;
+  }
+
+  // Returns a string that is postfixed to a warning about an invalid type.
+  // For example, "undefined" or "of type array"
+  function getPostfixForTypeWarning(value) {
+    var type = getPreciseType(value);
+    switch (type) {
+      case 'array':
+      case 'object':
+        return 'an ' + type;
+      case 'boolean':
+      case 'date':
+      case 'regexp':
+        return 'a ' + type;
+      default:
+        return type;
+    }
+  }
+
+  // Returns class name of the object, if any.
+  function getClassName(propValue) {
+    if (!propValue.constructor || !propValue.constructor.name) {
+      return ANONYMOUS;
+    }
+    return propValue.constructor.name;
+  }
+
+  ReactPropTypes.checkPropTypes = checkPropTypes;
+  ReactPropTypes.resetWarningCache = checkPropTypes.resetWarningCache;
+  ReactPropTypes.PropTypes = ReactPropTypes;
+
+  return ReactPropTypes;
+};
+
+
+/***/ }),
+
+/***/ "../node_modules/prop-types/index.js":
+/*!*******************************************!*\
+  !*** ../node_modules/prop-types/index.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+if (true) {
+  var ReactIs = __webpack_require__(/*! react-is */ "../node_modules/react-is/index.js");
+
+  // By explicitly using `prop-types` you are opting into new development behavior.
+  // http://fb.me/prop-types-in-prod
+  var throwOnDirectAccess = true;
+  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "../node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
+} else {}
+
+
+/***/ }),
+
+/***/ "../node_modules/prop-types/lib/ReactPropTypesSecret.js":
+/*!********************************************************************************************************************!*\
+  !*** delegated ../node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_fbfdd5333204b8b31297 ***!
+  \********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(/*! dll-reference dll_fbfdd5333204b8b31297 */ "dll-reference dll_fbfdd5333204b8b31297"))("../node_modules/prop-types/lib/ReactPropTypesSecret.js");
+
+/***/ }),
+
 /***/ "../node_modules/punycode/punycode.js":
 /*!********************************************!*\
   !*** ../node_modules/punycode/punycode.js ***!
@@ -10340,12 +11199,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! next/head */ "../node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! next/router */ "../node_modules/next/dist/client/router.js");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! nprogress */ "../node_modules/nprogress/nprogress.js");
-/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(nprogress__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _assets_sass_main_scss__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/sass/main.scss */ "./assets/sass/main.scss");
-/* harmony import */ var _assets_sass_main_scss__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_assets_sass_main_scss__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! next-seo */ "../node_modules/next-seo/dist/index.js");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! next/router */ "../node_modules/next/dist/client/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! nprogress */ "../node_modules/nprogress/nprogress.js");
+/* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(nprogress__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _next_seo_config__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../next-seo.config */ "../next-seo.config.js");
+/* harmony import */ var _assets_sass_main_scss__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/sass/main.scss */ "./assets/sass/main.scss");
+/* harmony import */ var _assets_sass_main_scss__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_assets_sass_main_scss__WEBPACK_IMPORTED_MODULE_15__);
 
 
 
@@ -10367,33 +11229,36 @@ Next.js 使用該App 組件初始化頁面。您可以覆蓋它並控制頁面�
 
 
 
+
  // import { ThemeProvider } from 'styled-components'
+// import your default seo configuration
+
 
 
 
 var startProgress = function startProgress() {
-  return nprogress__WEBPACK_IMPORTED_MODULE_12___default.a.start();
+  return nprogress__WEBPACK_IMPORTED_MODULE_13___default.a.start();
 };
 
 var stopProgress = function stopProgress(timer) {
   clearTimeout(timer);
-  nprogress__WEBPACK_IMPORTED_MODULE_12___default.a.done();
+  nprogress__WEBPACK_IMPORTED_MODULE_13___default.a.done();
 };
 
 var showProgressBar = function showProgressBar(delay) {
   var timer = setTimeout(startProgress, delay);
-  next_router__WEBPACK_IMPORTED_MODULE_11___default.a.events.on('beforeHistoryChange', function () {
+  next_router__WEBPACK_IMPORTED_MODULE_12___default.a.events.on('beforeHistoryChange', function () {
     return stopProgress(timer);
   });
-  next_router__WEBPACK_IMPORTED_MODULE_11___default.a.events.on('routeChangeComplete', function () {
+  next_router__WEBPACK_IMPORTED_MODULE_12___default.a.events.on('routeChangeComplete', function () {
     return stopProgress(timer);
   });
-  next_router__WEBPACK_IMPORTED_MODULE_11___default.a.events.on('routeChangeError', function () {
+  next_router__WEBPACK_IMPORTED_MODULE_12___default.a.events.on('routeChangeError', function () {
     return stopProgress(timer);
   });
 };
 
-next_router__WEBPACK_IMPORTED_MODULE_11___default.a.events.on('routeChangeStart', function (url) {
+next_router__WEBPACK_IMPORTED_MODULE_12___default.a.events.on('routeChangeStart', function (url) {
   showProgressBar(300);
   console.log('App is changing to: ', url);
 }); // const theme = {
@@ -10416,7 +11281,7 @@ function (_App) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_4__["default"])(MyApp, [{
     key: "componentDidMount",
     value: function componentDidMount() {
-      nprogress__WEBPACK_IMPORTED_MODULE_12___default.a.done(true);
+      nprogress__WEBPACK_IMPORTED_MODULE_13___default.a.done(true);
     }
   }, {
     key: "render",
@@ -10428,7 +11293,7 @@ function (_App) {
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_10___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 67
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("meta", {
@@ -10437,19 +11302,26 @@ function (_App) {
         key: "meta_viewport",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 68
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_9__["Container"], {
+      })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_11___default.a, {
+        config: _next_seo_config__WEBPACK_IMPORTED_MODULE_14__["default"],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 75
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_9__["Container"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 77
         },
         __self: this
       }))));
