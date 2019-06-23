@@ -1,13 +1,36 @@
 [
   {
-    "id": 10,
-    "tag": "education",
+    "id": 5,
+    "theme": "education",
     "date": "2011/09 ~ 2014/06",
     "title": "復興商工",
     "subtitle": "廣告設計科",
-    "logo": "images/education/MK.jpg",
+    "logo": "images/education/fhvs.jpg",
     "content": [
       { "h5": "活動經歷", "list_ol": ["103年度 電影欣賞社社長"] },
+      {
+        "h5": "特殊表現",
+        "list_ol": [
+          "102 學年度復興商工元旦展 數位媒體類 佳作",
+          "102 年度 日本亞洲國際兒童影展 入選",
+          "103 年度 復興商工畢業展 數位媒體類 第二名"
+        ]
+      }
+    ],
+    "tags": ["AI", "AE", "PS", "PR"]
+  },
+  {
+    "id": 10,
+    "theme": "education",
+    "date": "2011/09 ~ 2014/06",
+    "title": "復興商工",
+    "subtitle": "廣告設計科",
+    "logo": "images/education/fhvs.jpg",
+    "content": [
+      {
+        "h5": "活動經歷",
+        "list_ol": ["103年度 電影欣賞社社長"]
+      },
       {
         "h5": "特殊表現",
         "list_ol": [
@@ -20,11 +43,11 @@
   },
   {
     "id": 20,
-    "tag": "education",
+    "theme": "education",
     "date": "2014/09 ~ 2018/06",
     "title": "龍華科技大學",
     "subtitle": "文化創意與數位媒體設計系",
-    "logo": "images/education/NKFUST.png",
+    "logo": "images/education/lhu.png",
     "content": [
       {
         "h5": "活動經歷",
@@ -38,7 +61,7 @@
   },
   {
     "id": 30,
-    "tag": "work",
+    "theme": "work",
     "date": "2018/07 - present",
     "title": "MamiBuy_紳太國際資訊股份有限公司",
     "subtitle": "影音製作人",
@@ -53,6 +76,6 @@
         "list_ol": ["開箱影片畫面設計", "開箱影片拍攝與剪輯", "影片文案撰寫", "影片首圖製作", "片尾動畫製作"]
       }
     ],
-    "technologies": ["AI", "AE", "PS", "PR"]
+    "tags": ["AI", "AE", "PS", "PR"]
   }
 ]
