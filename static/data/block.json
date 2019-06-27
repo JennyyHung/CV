@@ -1,6 +1,0 @@
-[
-  { "id": 10, "anchor": "aboutMe", "display": "關於我", "icon": "images/hero/about.jpg" },
-  { "id": 20, "anchor": "hobbiesAndInterests", "display": "興趣 & 嗜好", "icon": "images/hero/hobbies.jpg" },
-  { "id": 30, "anchor": "skills", "display": "技能", "icon": "images/hero/skills.jpg" },
-  { "id": 40, "anchor": "experienceAndEducation", "display": "學歷 & 經歷", "icon": "images/hero/work.jpg" }
-]
