@@ -3,7 +3,7 @@
     "id": 10,
     "name": "旅遊",
     "desc": "最喜歡的國家是日本，是個去幾次都還會想再去的國家！也因此曾學習超級皮毛的日文～不過未來還是立志要多多造訪其他國家體驗不同文化",
-    "icon": "svg/hobbies/cinema.svg"
+    "icon": "svg/hobbies/plane.svg"
   },
   {
     "id": 20,
@@ -15,6 +15,6 @@
     "id": 30,
     "name": "電影",
     "desc": "我平常也很喜歡看電影、Youtube影片（尤其是搞笑類的）,除了能讓生活變得更開心、增加風趣，也能從別人的影片發現不一樣的剪輯技巧並增進自己的能力！",
-    "icon": "svg/hobbies/plane.svg"
+    "icon": "svg/hobbies/cinema.svg"
   }
 ]
