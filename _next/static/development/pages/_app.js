@@ -11187,10 +11187,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./lib/gtag.js":
-/*!*********************!*\
-  !*** ./lib/gtag.js ***!
-  \*********************/
+/***/ "./assets/utils/gtag.js":
+/*!******************************!*\
+  !*** ./assets/utils/gtag.js ***!
+  \******************************/
 /*! exports provided: GA_TRACKING_ID, pageview, event */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11252,7 +11252,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! nprogress */ "../node_modules/nprogress/nprogress.js");
 /* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(nprogress__WEBPACK_IMPORTED_MODULE_13__);
 /* harmony import */ var _next_seo_config__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../next-seo.config */ "../next-seo.config.js");
-/* harmony import */ var _lib_gtag__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../lib/gtag */ "./lib/gtag.js");
+/* harmony import */ var _assets_utils_gtag__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/utils/gtag */ "./assets/utils/gtag.js");
 
 
 
@@ -11261,7 +11261,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "D:\\GIT\\jenny\\CV_CODE\\src\\pages\\_app.js";
+var _jsxFileName = "E:\\Code\\GIT\\CV\\jenny\\CV_CODE\\src\\pages\\_app.js";
 
 /**
 Next.js 使用該App 組件初始化頁面。您可以覆蓋它並控制頁面初始化。這可以讓你做出驚人的事情：
@@ -11298,7 +11298,7 @@ var showProgressBar = function showProgressBar(delay) {
   });
   next_router__WEBPACK_IMPORTED_MODULE_12___default.a.events.on('routeChangeComplete', function (url) {
     stopProgress(timer);
-    _lib_gtag__WEBPACK_IMPORTED_MODULE_15__["pageview"](url);
+    _assets_utils_gtag__WEBPACK_IMPORTED_MODULE_15__["pageview"](url);
   });
   next_router__WEBPACK_IMPORTED_MODULE_12___default.a.events.on('routeChangeError', function () {
     return stopProgress(timer);

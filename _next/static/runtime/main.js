@@ -6671,7 +6671,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      source_map_support_1.rewriteStacktrace(error, "D:\\GIT\\jenny\\CV_CODE\\src\\build");
+      source_map_support_1.rewriteStacktrace(error, "E:\\Code\\GIT\\CV\\jenny\\CV_CODE\\src\\build");
       return error;
     }
   };
