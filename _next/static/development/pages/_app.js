@@ -11199,7 +11199,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GA_TRACKING_ID", function() { return GA_TRACKING_ID; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageview", function() { return pageview; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "event", function() { return event; });
-var GA_TRACKING_ID = 'UA-143242972-1'; // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
+var GA_TRACKING_ID = "UA-143242972-1"; // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
+
 
 var pageview = function pageview(url) {
   window.gtag('config', GA_TRACKING_ID, {
