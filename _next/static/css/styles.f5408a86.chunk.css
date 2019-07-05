@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center; }
 
-.hero-module_hero_31aYo > * .hero-module_bg_3ZcGT, .hero-module_hero_31aYo > * .hero-module_mask_2vaFX {
+.hero-module_hero_31aYo > * .hero-module_bg_3ZcGT {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -111,22 +111,20 @@
         .hero-module_hero_31aYo > * .hero-module_bg_3ZcGT {
           background-position-y: 60%; } }
     .hero-module_hero_31aYo > * .hero-module_mask_2vaFX {
+      position: absolute;
+      left: 0;
+      bottom: 100%;
       width: 100%;
       height: 100%;
       background-color: rgba(255, 255, 255, 0.7);
-      transform: translate(-50%, -150%);
-      transition-property: transform, visibility;
-      transition-duration: 0.4s;
-      transition-timing-function: ease-in-out;
-      visibility: hidden; }
+      transition: bottom 0.4s ease-in-out; }
       .hero-module_hero_31aYo > * .hero-module_mask_2vaFX p {
         font-size: 36px;
         font-weight: bold; }
     .hero-module_hero_31aYo > *:hover .hero-module_bg_3ZcGT, .hero-module_hero_31aYo > *:active .hero-module_bg_3ZcGT {
       filter: blur(2px); }
     .hero-module_hero_31aYo > *:hover .hero-module_mask_2vaFX, .hero-module_hero_31aYo > *:active .hero-module_mask_2vaFX {
-      transform: translate(-50%, -50%);
-      visibility: visible; }
+      bottom: 0; }
     .hero-module_hero_31aYo > *:nth-child(1), .hero-module_hero_31aYo > *:nth-child(2) {
       flex: 1;
       height: 50%;
