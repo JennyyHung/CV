@@ -11187,6 +11187,41 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./assets/utils/gtag.js":
+/*!******************************!*\
+  !*** ./assets/utils/gtag.js ***!
+  \******************************/
+/*! exports provided: GA_TRACKING_ID, pageview, event */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GA_TRACKING_ID", function() { return GA_TRACKING_ID; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageview", function() { return pageview; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "event", function() { return event; });
+var GA_TRACKING_ID = "UA-143242972-1"; // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
+
+
+var pageview = function pageview(url) {
+  window.gtag('config', GA_TRACKING_ID, {
+    page_path: url
+  });
+}; // https://developers.google.com/analytics/devguides/collection/gtagjs/events
+
+var event = function event(_ref) {
+  var action = _ref.action,
+      category = _ref.category,
+      label = _ref.label,
+      value = _ref.value;
+  window.gtag('event', action, {
+    event_category: category,
+    event_label: label,
+    value: value
+  });
+};
+
+/***/ }),
+
 /***/ "./pages/_app.js":
 /*!***********************!*\
   !*** ./pages/_app.js ***!
@@ -11218,6 +11253,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! nprogress */ "../node_modules/nprogress/nprogress.js");
 /* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(nprogress__WEBPACK_IMPORTED_MODULE_13__);
 /* harmony import */ var _next_seo_config__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../next-seo.config */ "../next-seo.config.js");
+/* harmony import */ var _assets_utils_gtag__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/utils/gtag */ "./assets/utils/gtag.js");
 
 
 
@@ -11243,7 +11279,9 @@ Next.js 使用該App 組件初始化頁面。您可以覆蓋它並控制頁面�
  // import { ThemeProvider } from 'styled-components'
 // import your default seo configuration
 
+ // GA
 
+ // Router.events.on('routeChangeComplete', url => gtag.pageview(url))
 
 var startProgress = function startProgress() {
   return nprogress__WEBPACK_IMPORTED_MODULE_13___default.a.start();
@@ -11259,8 +11297,9 @@ var showProgressBar = function showProgressBar(delay) {
   next_router__WEBPACK_IMPORTED_MODULE_12___default.a.events.on('beforeHistoryChange', function () {
     return stopProgress(timer);
   });
-  next_router__WEBPACK_IMPORTED_MODULE_12___default.a.events.on('routeChangeComplete', function () {
-    return stopProgress(timer);
+  next_router__WEBPACK_IMPORTED_MODULE_12___default.a.events.on('routeChangeComplete', function (url) {
+    stopProgress(timer);
+    _assets_utils_gtag__WEBPACK_IMPORTED_MODULE_15__["pageview"](url);
   });
   next_router__WEBPACK_IMPORTED_MODULE_12___default.a.events.on('routeChangeError', function () {
     return stopProgress(timer);
@@ -11302,7 +11341,7 @@ function (_App) {
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_10___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 72
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("meta", {
@@ -11311,26 +11350,26 @@ function (_App) {
         key: "meta_viewport",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 73
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_11___default.a, {
         config: _next_seo_config__WEBPACK_IMPORTED_MODULE_14__["default"],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 80
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_9__["Container"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 81
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 82
         },
         __self: this
       }))));
