@@ -11,6 +11,8 @@ function labnolIframe() {
       '?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&showinfo=0'
   )
   iframe.setAttribute('frameborder', '0')
+  iframe.setAttribute('allow', 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture')
+  iframe.setAttribute('allowfullscreen', '1')
   iframe.setAttribute('id', 'youtube-iframe')
   this.parentNode.replaceChild(iframe, this)
 }
