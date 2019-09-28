@@ -170,11 +170,11 @@
       },
       {
         "youtube_title": "作品名稱",
-        "youtube": "https://www.youtube.com/embed/NFtVq860j1M"
+        "youtube": "https://www.youtube.com/embed/Vch-F_yQIHI"
       },
       {
         "youtube_title": "作品名稱",
-        "youtube": "https://www.youtube.com/embed/NFtVq860j1M"
+        "youtube": "https://www.youtube.com/embed/z_n7g6NVdlc"
       },
       {
         "h5": "負責項目",
@@ -225,6 +225,52 @@
       {
         "h5": "負責項目",
         "list_ul": ["剪輯、 拍攝"]
+      }
+    ],
+    "tags": ["AI", "AE", "PS", "PR"]
+  },
+  {
+    "id": 24,
+    "theme": "portfolio",
+    "photos": [
+      { "id": 10, "src": "images/portfolio/demo/0801.png" },
+      { "id": 20, "src": "images/portfolio/demo/0802.png" }
+    ],
+    "content": [
+      {
+        "h5": "作品名稱",
+        "list_ul": ["Summer Infant 自主學習小馬桶"]
+      },
+      {
+        "youtube_title": "作品名稱",
+        "youtube": "https://www.youtube.com/embed/RrbD1r2Sk5k"
+      },
+      {
+        "h5": "負責項目",
+        "list_ul": ["剪輯、拍攝、腳本文案"]
+      }
+    ],
+    "tags": ["AI", "AE", "PS", "PR"]
+  },
+  {
+    "id": 25,
+    "theme": "portfolio",
+    "photos": [
+      { "id": 10, "src": "images/portfolio/demo/0901.png" },
+      { "id": 20, "src": "images/portfolio/demo/0902.png" }
+    ],
+    "content": [
+      {
+        "h5": "作品名稱",
+        "list_ul": ["創意重複多層畫本"]
+      },
+      {
+        "youtube_title": "作品名稱",
+        "youtube": "https://www.youtube.com/embed/KZ3mvWuWtis"
+      },
+      {
+        "h5": "負責項目",
+        "list_ul": ["剪輯、拍攝、腳本文案"]
       }
     ],
     "tags": ["AI", "AE", "PS", "PR"]
