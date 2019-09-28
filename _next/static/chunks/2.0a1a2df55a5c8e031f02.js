@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{QoYM:function(n,e,o){"use strict";o.r(e);var t=o("mXGw"),u=o.n(t).a.createElement;e.default=function(){return u("p",null,"Hello!")}}}]);

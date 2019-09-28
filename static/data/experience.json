@@ -13,7 +13,7 @@
         "list_ul": ["2013日本亞洲國際兒童影展-欺凌"]
       },
       {
-        "youtube_title": "作品名稱",
+        "youtube_title": "2013日本亞洲國際兒童影展-欺凌 入選",
         "youtube": "https://www.youtube.com/embed/5j5qenZt360"
       },
       {
@@ -58,7 +58,7 @@
         "list_ul": ["2016資安系列競賽-變色騙"]
       },
       {
-        "youtube_title": "作品名稱",
+        "youtube_title": "資安 變色騙 正片",
         "youtube": "https://www.youtube.com/embed/xmsyPy1TIyE"
       },
       {
@@ -81,7 +81,7 @@
         "list_ul": ["2016 LIFE2.0大迎新 預告片"]
       },
       {
-        "youtube_title": "作品名稱",
+        "youtube_title": "LIFE2.0宮預告片",
         "youtube": "https://www.youtube.com/embed/_APkcJ84sWg"
       },
       {
@@ -104,7 +104,7 @@
         "list_ul": ["2016資安系列競賽-魍拍"]
       },
       {
-        "youtube_title": "作品名稱",
+        "youtube_title": "2016資安系列競賽-魍拍佳作",
         "youtube": "https://www.youtube.com/embed/yVXMjrvW4T4"
       },
       {
@@ -127,7 +127,7 @@
         "list_ul": ["牛頭牌60週年微電影競賽同學會"]
       },
       {
-        "youtube_title": "作品名稱",
+        "youtube_title": "牛頭牌60週年微電影競賽同學會",
         "youtube": "https://www.youtube.com/embed/OqGV3W9oY5g"
       },
       {
@@ -150,127 +150,12 @@
         "list_ul": ["2018 畢業歌-龍華波棒"]
       },
       {
-        "youtube_title": "作品名稱",
+        "youtube_title": "大學作品-龍華波棒",
         "youtube": "https://www.youtube.com/embed/r_zbrnWc7po"
       },
       {
         "h5": "負責項目",
         "list_ul": ["導演、拍攝、歌詞撰寫"]
-      }
-    ],
-    "tags": ["AI", "AE", "PS", "PR"]
-  },
-  {
-    "id": 21,
-    "theme": "portfolio",
-    "content": [
-      {
-        "h5": "作品名稱",
-        "list_ul": ["片尾動畫製作"]
-      },
-      {
-        "youtube_title": "作品名稱",
-        "youtube": "https://www.youtube.com/embed/Vch-F_yQIHI"
-      },
-      {
-        "youtube_title": "作品名稱",
-        "youtube": "https://www.youtube.com/embed/z_n7g6NVdlc"
-      },
-      {
-        "h5": "負責項目",
-        "list_ul": ["動畫"]
-      }
-    ],
-    "tags": ["AI", "AE", "PS", "PR"]
-  },
-  {
-    "id": 22,
-    "theme": "portfolio",
-    "photos": [
-      { "id": 10, "src": "images/portfolio/demo/0601.png" },
-      { "id": 20, "src": "images/portfolio/demo/0602.png" }
-    ],
-    "content": [
-      {
-        "h5": "作品名稱",
-        "list_ul": ["【淨毒五郎】酵素消臭洗衣精"]
-      },
-      {
-        "youtube_title": "作品名稱",
-        "youtube": "https://www.youtube.com/embed/NFtVq860j1M"
-      },
-      {
-        "h5": "負責項目",
-        "list_ul": ["剪輯、 拍攝、腳本文案"]
-      }
-    ],
-    "tags": ["AI", "AE", "PS", "PR"]
-  },
-  {
-    "id": 23,
-    "theme": "portfolio",
-    "photos": [
-      { "id": 10, "src": "images/portfolio/demo/0701.png" },
-      { "id": 20, "src": "images/portfolio/demo/0702.png" }
-    ],
-    "content": [
-      {
-        "h5": "作品名稱",
-        "list_ul": ["波比兒童AI智能機器人"]
-      },
-      {
-        "youtube_title": "作品名稱",
-        "youtube": "https://www.youtube.com/embed/kjETphBUOsM"
-      },
-      {
-        "h5": "負責項目",
-        "list_ul": ["剪輯、 拍攝"]
-      }
-    ],
-    "tags": ["AI", "AE", "PS", "PR"]
-  },
-  {
-    "id": 24,
-    "theme": "portfolio",
-    "photos": [
-      { "id": 10, "src": "images/portfolio/demo/0801.png" },
-      { "id": 20, "src": "images/portfolio/demo/0802.png" }
-    ],
-    "content": [
-      {
-        "h5": "作品名稱",
-        "list_ul": ["Summer Infant 自主學習小馬桶"]
-      },
-      {
-        "youtube_title": "作品名稱",
-        "youtube": "https://www.youtube.com/embed/RrbD1r2Sk5k"
-      },
-      {
-        "h5": "負責項目",
-        "list_ul": ["剪輯、拍攝、腳本文案"]
-      }
-    ],
-    "tags": ["AI", "AE", "PS", "PR"]
-  },
-  {
-    "id": 25,
-    "theme": "portfolio",
-    "photos": [
-      { "id": 10, "src": "images/portfolio/demo/0901.png" },
-      { "id": 20, "src": "images/portfolio/demo/0902.png" }
-    ],
-    "content": [
-      {
-        "h5": "作品名稱",
-        "list_ul": ["創意重複多層畫本"]
-      },
-      {
-        "youtube_title": "作品名稱",
-        "youtube": "https://www.youtube.com/embed/KZ3mvWuWtis"
-      },
-      {
-        "h5": "負責項目",
-        "list_ul": ["剪輯、拍攝、腳本文案"]
       }
     ],
     "tags": ["AI", "AE", "PS", "PR"]
@@ -294,7 +179,122 @@
     ]
   },
   {
-    "id": 30,
+    "id": 21,
+    "theme": "portfolio",
+    "content": [
+      {
+        "h5": "作品名稱",
+        "list_ul": ["片尾動畫製作"]
+      },
+      {
+        "youtube_title": "片尾動畫(1)",
+        "youtube": "https://www.youtube.com/embed/Vch-F_yQIHI"
+      },
+      {
+        "youtube_title": "片尾動畫(2)",
+        "youtube": "https://www.youtube.com/embed/z_n7g6NVdlc"
+      },
+      {
+        "h5": "負責項目",
+        "list_ul": ["動畫"]
+      }
+    ],
+    "tags": ["AI", "AE", "PS", "PR"]
+  },
+  {
+    "id": 22,
+    "theme": "portfolio",
+    "photos": [
+      { "id": 10, "src": "images/portfolio/demo/0601.png" },
+      { "id": 20, "src": "images/portfolio/demo/0602.png" }
+    ],
+    "content": [
+      {
+        "h5": "作品名稱",
+        "list_ul": ["【淨毒五郎】酵素消臭洗衣精"]
+      },
+      {
+        "youtube_title": "MamiBuy媽咪拜 開箱影片【淨毒五郎】酵素消臭洗衣精",
+        "youtube": "https://www.youtube.com/embed/NFtVq860j1M"
+      },
+      {
+        "h5": "負責項目",
+        "list_ul": ["剪輯、 拍攝、腳本文案"]
+      }
+    ],
+    "tags": ["AI", "AE", "PS", "PR"]
+  },
+  {
+    "id": 23,
+    "theme": "portfolio",
+    "photos": [
+      { "id": 10, "src": "images/portfolio/demo/0701.png" },
+      { "id": 20, "src": "images/portfolio/demo/0702.png" }
+    ],
+    "content": [
+      {
+        "h5": "作品名稱",
+        "list_ul": ["波比兒童AI智能機器人"]
+      },
+      {
+        "youtube_title": "MamiBuy媽咪拜 開箱影片 波比兒童AI智能機器人",
+        "youtube": "https://www.youtube.com/embed/kjETphBUOsM"
+      },
+      {
+        "h5": "負責項目",
+        "list_ul": ["剪輯、 拍攝"]
+      }
+    ],
+    "tags": ["AI", "AE", "PS", "PR"]
+  },
+  {
+    "id": 24,
+    "theme": "portfolio",
+    "photos": [
+      { "id": 10, "src": "images/portfolio/demo/0801.png" },
+      { "id": 20, "src": "images/portfolio/demo/0802.png" }
+    ],
+    "content": [
+      {
+        "h5": "作品名稱",
+        "list_ul": ["Summer Infant 自主學習小馬桶"]
+      },
+      {
+        "youtube_title": "MamiBuy媽咪拜 開箱影片 Summer Infant 自主學習小馬桶",
+        "youtube": "https://www.youtube.com/embed/RrbD1r2Sk5k"
+      },
+      {
+        "h5": "負責項目",
+        "list_ul": ["剪輯、拍攝、腳本文案"]
+      }
+    ],
+    "tags": ["AI", "AE", "PS", "PR"]
+  },
+  {
+    "id": 25,
+    "theme": "portfolio",
+    "photos": [
+      { "id": 10, "src": "images/portfolio/demo/0901.png" },
+      { "id": 20, "src": "images/portfolio/demo/0902.png" }
+    ],
+    "content": [
+      {
+        "h5": "作品名稱",
+        "list_ul": ["創意重複多層畫本"]
+      },
+      {
+        "youtube_title": "MamiBuy媽咪拜 開箱影片 創意重複多層畫本",
+        "youtube": "https://www.youtube.com/embed/KZ3mvWuWtis"
+      },
+      {
+        "h5": "負責項目",
+        "list_ul": ["剪輯、拍攝、腳本文案"]
+      }
+    ],
+    "tags": ["AI", "AE", "PS", "PR"]
+  },
+  {
+    "id": 50,
     "theme": "work",
     "date": "2018/07 - present",
     "title": "MamiBuy_紳太國際資訊股份有限公司",

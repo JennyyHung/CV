@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["4352"],{QoYM:function(n,e,o){"use strict";o.r(e);var t=o("mXGw"),u=o.n(t);e.default=function(){return u.a.createElement("p",null,"Hello!")}}}]);
