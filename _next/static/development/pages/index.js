@@ -28579,34 +28579,31 @@ var Content = function Content(content) {
         lineNumber: 79
       },
       __self: this
-    }))), content[index].youtube && __jsx("div", {
-      className: "vertical-timeline-element-iframe",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 83
-      },
-      __self: this
-    }, __jsx("iframe", {
-      src: content[index].youtube,
-      title: content[index].youtube_title,
-      frameBorder: "0",
-      allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
-      allowFullScreen: "1",
+    }))), content[index].youtube_id && __jsx(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, null, __jsx("div", {
+      className: "youtube-container",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 84
       },
       __self: this
-    })), content[index].list_ol && __jsx("ol", {
+    }, __jsx("div", {
+      className: "youtube-player",
+      "data-id": content[index].youtube_id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 94
+        lineNumber: 85
+      },
+      __self: this
+    }))), content[index].list_ol && __jsx("ol", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 99
       },
       __self: this
     }, __jsx(Li, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__["default"])({}, content[index].list_ol, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 95
+        lineNumber: 100
       },
       __self: this
     }))), content[index].p && __jsx("p", {
@@ -28615,7 +28612,7 @@ var Content = function Content(content) {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 98
+        lineNumber: 103
       },
       __self: this
     }));
@@ -28628,7 +28625,7 @@ var Li = function Li(data) {
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 107
+        lineNumber: 112
       },
       __self: this
     }, data[index]);
@@ -28641,7 +28638,7 @@ var Photos = function Photos(_ref2) {
     className: "resumeProjectsBlock-photos",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 119
     },
     __self: this
   }, photos.map(function (item) {
@@ -28649,7 +28646,7 @@ var Photos = function Photos(_ref2) {
       key: item.id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 116
+        lineNumber: 121
       },
       __self: this
     }, __jsx(_presentational_Image__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -28657,7 +28654,7 @@ var Photos = function Photos(_ref2) {
       defaultOnLoad: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 117
+        lineNumber: 122
       },
       __self: this
     }));
@@ -28669,7 +28666,7 @@ var Tags = function Tags(tags) {
     className: "resumeProjectsBlock-tags",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 131
     },
     __self: this
   }, _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0___default()(tags).map(function (index) {
@@ -28678,13 +28675,13 @@ var Tags = function Tags(tags) {
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 128
+        lineNumber: 133
       },
       __self: this
     }, __jsx("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 129
+        lineNumber: 134
       },
       __self: this
     }, tags[index]));
@@ -28696,7 +28693,7 @@ var Technologies = function Technologies(technologies) {
     className: "resumeProjectsBlock-technologies",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138
+      lineNumber: 143
     },
     __self: this
   }, _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0___default()(technologies).map(function (index) {
@@ -28705,13 +28702,13 @@ var Technologies = function Technologies(technologies) {
       key: index,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 140
+        lineNumber: 145
       },
       __self: this
     }, __jsx("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 141
+        lineNumber: 146
       },
       __self: this
     }, technologies[index]));
@@ -28723,7 +28720,7 @@ var Links = function Links(links) {
     className: "resumeProjectsBlock-links",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150
+      lineNumber: 155
     },
     __self: this
   }, _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0___default()(links).map(function (index) {
@@ -28735,19 +28732,19 @@ var Links = function Links(links) {
       href: links[index].url,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 152
+        lineNumber: 157
       },
       __self: this
     }, __jsx("span", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 153
+        lineNumber: 158
       },
       __self: this
     }, links[index].display), __jsx(react_ink__WEBPACK_IMPORTED_MODULE_4___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 154
+        lineNumber: 159
       },
       __self: this
     }));
@@ -29598,6 +29595,7 @@ var IndexPageContent = function IndexPageContent() {
   return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     title: "Resume",
     desc: _static_data_profile_json__WEBPACK_IMPORTED_MODULE_9__.introduction,
+    jsSrcArr: ['/static/js/youtube.js'],
     __source: {
       fileName: _jsxFileName,
       lineNumber: 70
@@ -29667,6 +29665,8 @@ var map = {
 	"./images/portfolio/demo/skills.jpg": "./static/images/portfolio/demo/skills.jpg",
 	"./images/portfolio/demo/work.jpg": "./static/images/portfolio/demo/work.jpg",
 	"./jenny.png": "./static/jenny.png",
+	"./js/youtube": "./static/js/youtube.js",
+	"./js/youtube.js": "./static/js/youtube.js",
 	"./svg/background/Protruding-Squares.svg": "./static/svg/background/Protruding-Squares.svg",
 	"./svg/background/Randomized-Pattern.svg": "./static/svg/background/Randomized-Pattern.svg",
 	"./svg/hobbies/apple.svg": "./static/svg/hobbies/apple.svg",
@@ -29714,7 +29714,7 @@ module.exports = JSON.parse("[{\"id\":10,\"site\":\"linkedin\",\"href\":\"https:
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":5,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/148.jpg\"},{\"id\":20,\"src\":\"images/portfolio/demo/jpn.jpg\"},{\"id\":30,\"src\":\"images/portfolio/demo/jpn1.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"2013日本亞洲國際兒童影展-欺凌\"]},{\"youtube_title\":\"2013日本亞洲國際兒童影展-欺凌 入選\",\"youtube\":\"https://www.youtube.com/embed/5j5qenZt360\"},{\"h5\":\"負責項目\",\"list_ul\":[\"劇本發想、演員\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":10,\"theme\":\"education\",\"date\":\"2011/09 ~ 2014/06\",\"title\":\"復興商工\",\"subtitle\":\"廣告設計科\",\"logo\":\"images/education/fhvs.jpg\",\"content\":[{\"h5\":\"活動經歷\",\"list_ul\":[\"103年度 電影欣賞社社長\"]},{\"h5\":\"特殊表現\",\"list_ul\":[\"102 學年度復興商工元旦展 數位媒體類 佳作\",\"102 年度 日本亞洲國際兒童影展 入選\",\"103 年度 復興商工畢業展 數位媒體類 第二名\"]}]},{\"id\":15,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/0102.png\"},{\"id\":20,\"src\":\"images/portfolio/demo/0101.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"2016資安系列競賽-變色騙\"]},{\"youtube_title\":\"資安 變色騙 正片\",\"youtube\":\"https://www.youtube.com/embed/xmsyPy1TIyE\"},{\"h5\":\"負責項目\",\"list_ul\":[\"導演、攝影、剪輯\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":16,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/0201.png\"},{\"id\":20,\"src\":\"images/portfolio/demo/0202.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"2016 LIFE2.0大迎新 預告片\"]},{\"youtube_title\":\"LIFE2.0宮預告片\",\"youtube\":\"https://www.youtube.com/embed/_APkcJ84sWg\"},{\"h5\":\"負責項目\",\"list_ul\":[\"剪輯\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":17,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/0303.jpg\"},{\"id\":20,\"src\":\"images/portfolio/demo/0301.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"2016資安系列競賽-魍拍\"]},{\"youtube_title\":\"2016資安系列競賽-魍拍佳作\",\"youtube\":\"https://www.youtube.com/embed/yVXMjrvW4T4\"},{\"h5\":\"負責項目\",\"list_ul\":[\"副導、編劇、攝影\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":18,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/0401.png\"},{\"id\":20,\"src\":\"images/portfolio/demo/0402.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"牛頭牌60週年微電影競賽同學會\"]},{\"youtube_title\":\"牛頭牌60週年微電影競賽同學會\",\"youtube\":\"https://www.youtube.com/embed/OqGV3W9oY5g\"},{\"h5\":\"負責項目\",\"list_ul\":[\"導演、攝影、編劇\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":19,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/0501.png\"},{\"id\":20,\"src\":\"images/portfolio/demo/0502.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"2018 畢業歌-龍華波棒\"]},{\"youtube_title\":\"大學作品-龍華波棒\",\"youtube\":\"https://www.youtube.com/embed/r_zbrnWc7po\"},{\"h5\":\"負責項目\",\"list_ul\":[\"導演、拍攝、歌詞撰寫\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":20,\"theme\":\"education\",\"date\":\"2014/09 ~ 2018/06\",\"title\":\"龍華科技大學\",\"subtitle\":\"文化創意與數位媒體設計系\",\"logo\":\"images/education/lhu.png\",\"content\":[{\"h5\":\"活動經歷\",\"list_ul\":[\"2015~2017 文創系系學會 執行秘書\"]},{\"h5\":\"特殊表現\",\"list_ul\":[\"2016 資安系列競賽 佳作\"]}]},{\"id\":21,\"theme\":\"portfolio\",\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"片尾動畫製作\"]},{\"youtube_title\":\"片尾動畫(1)\",\"youtube\":\"https://www.youtube.com/embed/Vch-F_yQIHI\"},{\"youtube_title\":\"片尾動畫(2)\",\"youtube\":\"https://www.youtube.com/embed/z_n7g6NVdlc\"},{\"h5\":\"負責項目\",\"list_ul\":[\"動畫\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":22,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/0601.png\"},{\"id\":20,\"src\":\"images/portfolio/demo/0602.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"【淨毒五郎】酵素消臭洗衣精\"]},{\"youtube_title\":\"MamiBuy媽咪拜 開箱影片【淨毒五郎】酵素消臭洗衣精\",\"youtube\":\"https://www.youtube.com/embed/NFtVq860j1M\"},{\"h5\":\"負責項目\",\"list_ul\":[\"剪輯、 拍攝、腳本文案\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":23,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/0701.png\"},{\"id\":20,\"src\":\"images/portfolio/demo/0702.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"波比兒童AI智能機器人\"]},{\"youtube_title\":\"MamiBuy媽咪拜 開箱影片 波比兒童AI智能機器人\",\"youtube\":\"https://www.youtube.com/embed/kjETphBUOsM\"},{\"h5\":\"負責項目\",\"list_ul\":[\"剪輯、 拍攝\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":24,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/0801.png\"},{\"id\":20,\"src\":\"images/portfolio/demo/0802.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"Summer Infant 自主學習小馬桶\"]},{\"youtube_title\":\"MamiBuy媽咪拜 開箱影片 Summer Infant 自主學習小馬桶\",\"youtube\":\"https://www.youtube.com/embed/RrbD1r2Sk5k\"},{\"h5\":\"負責項目\",\"list_ul\":[\"剪輯、拍攝、腳本文案\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":25,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/0901.png\"},{\"id\":20,\"src\":\"images/portfolio/demo/0902.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"創意重複多層畫本\"]},{\"youtube_title\":\"MamiBuy媽咪拜 開箱影片 創意重複多層畫本\",\"youtube\":\"https://www.youtube.com/embed/KZ3mvWuWtis\"},{\"h5\":\"負責項目\",\"list_ul\":[\"剪輯、拍攝、腳本文案\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":50,\"theme\":\"work\",\"date\":\"2018/07 - present\",\"title\":\"MamiBuy_紳太國際資訊股份有限公司\",\"subtitle\":\"影音製作人\",\"logo\":\"images/education/MMB.png\",\"content\":[{\"h5\":\"部門\",\"list_ul\":[\"數位行銷中心\"]},{\"h5\":\"工作項目：\",\"list_ul\":[\"開箱影片畫面設計\",\"開箱影片拍攝與剪輯\",\"影片文案撰寫\",\"影片首圖製作\",\"片尾動畫製作\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]}]");
+module.exports = JSON.parse("[{\"id\":5,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/148.jpg\"},{\"id\":20,\"src\":\"images/portfolio/demo/jpn.jpg\"},{\"id\":30,\"src\":\"images/portfolio/demo/jpn1.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"2013日本亞洲國際兒童影展-欺凌\"]},{\"youtube_id\":\"5j5qenZt360\"},{\"h5\":\"負責項目\",\"list_ul\":[\"劇本發想、演員\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":10,\"theme\":\"education\",\"date\":\"2011/09 ~ 2014/06\",\"title\":\"復興商工\",\"subtitle\":\"廣告設計科\",\"logo\":\"images/education/fhvs.jpg\",\"content\":[{\"h5\":\"活動經歷\",\"list_ul\":[\"103年度 電影欣賞社社長\"]},{\"h5\":\"特殊表現\",\"list_ul\":[\"102 學年度復興商工元旦展 數位媒體類 佳作\",\"102 年度 日本亞洲國際兒童影展 入選\",\"103 年度 復興商工畢業展 數位媒體類 第二名\"]}]},{\"id\":15,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/0102.png\"},{\"id\":20,\"src\":\"images/portfolio/demo/0101.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"2016資安系列競賽-變色騙\"]},{\"youtube_id\":\"xmsyPy1TIyE\"},{\"h5\":\"負責項目\",\"list_ul\":[\"導演、攝影、剪輯\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":16,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/0201.png\"},{\"id\":20,\"src\":\"images/portfolio/demo/0202.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"2016 LIFE2.0大迎新 預告片\"]},{\"youtube_id\":\"_APkcJ84sWg\"},{\"h5\":\"負責項目\",\"list_ul\":[\"剪輯\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":17,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/0303.jpg\"},{\"id\":20,\"src\":\"images/portfolio/demo/0301.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"2016資安系列競賽-魍拍\"]},{\"youtube_id\":\"yVXMjrvW4T4\"},{\"h5\":\"負責項目\",\"list_ul\":[\"副導、編劇、攝影\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":18,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/0401.png\"},{\"id\":20,\"src\":\"images/portfolio/demo/0402.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"牛頭牌60週年微電影競賽同學會\"]},{\"youtube_id\":\"OqGV3W9oY5g\"},{\"h5\":\"負責項目\",\"list_ul\":[\"導演、攝影、編劇\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":19,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/0501.png\"},{\"id\":20,\"src\":\"images/portfolio/demo/0502.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"2018 畢業歌-龍華波棒\"]},{\"youtube_id\":\"r_zbrnWc7po\"},{\"h5\":\"負責項目\",\"list_ul\":[\"導演、拍攝、歌詞撰寫\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":20,\"theme\":\"education\",\"date\":\"2014/09 ~ 2018/06\",\"title\":\"龍華科技大學\",\"subtitle\":\"文化創意與數位媒體設計系\",\"logo\":\"images/education/lhu.png\",\"content\":[{\"h5\":\"活動經歷\",\"list_ul\":[\"2015~2017 文創系系學會 執行秘書\"]},{\"h5\":\"特殊表現\",\"list_ul\":[\"2016 資安系列競賽 佳作\"]}]},{\"id\":21,\"theme\":\"portfolio\",\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"片尾動畫製作\"]},{\"youtube_id\":\"Vch-F_yQIHI\"},{\"youtube_id\":\"z_n7g6NVdlc\"},{\"h5\":\"負責項目\",\"list_ul\":[\"動畫\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":22,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/0601.png\"},{\"id\":20,\"src\":\"images/portfolio/demo/0602.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"【淨毒五郎】酵素消臭洗衣精\"]},{\"youtube_id\":\"NFtVq860j1M\"},{\"h5\":\"負責項目\",\"list_ul\":[\"剪輯、 拍攝、腳本文案\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":23,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/0701.png\"},{\"id\":20,\"src\":\"images/portfolio/demo/0702.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"波比兒童AI智能機器人\"]},{\"youtube_id\":\"kjETphBUOsM\"},{\"h5\":\"負責項目\",\"list_ul\":[\"剪輯、 拍攝\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":24,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/0801.png\"},{\"id\":20,\"src\":\"images/portfolio/demo/0802.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"Summer Infant 自主學習小馬桶\"]},{\"youtube_id\":\"RrbD1r2Sk5k\"},{\"h5\":\"負責項目\",\"list_ul\":[\"剪輯、拍攝、腳本文案\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":25,\"theme\":\"portfolio\",\"photos\":[{\"id\":10,\"src\":\"images/portfolio/demo/0901.png\"},{\"id\":20,\"src\":\"images/portfolio/demo/0902.png\"}],\"content\":[{\"h5\":\"作品名稱\",\"list_ul\":[\"創意重複多層畫本\"]},{\"youtube_id\":\"KZ3mvWuWtis\"},{\"h5\":\"負責項目\",\"list_ul\":[\"剪輯、拍攝、腳本文案\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]},{\"id\":50,\"theme\":\"work\",\"date\":\"2018/07 - present\",\"title\":\"MamiBuy_紳太國際資訊股份有限公司\",\"subtitle\":\"影音製作人\",\"logo\":\"images/education/MMB.png\",\"content\":[{\"h5\":\"部門\",\"list_ul\":[\"數位行銷中心\"]},{\"h5\":\"工作項目：\",\"list_ul\":[\"開箱影片畫面設計\",\"開箱影片拍攝與剪輯\",\"影片文案撰寫\",\"影片首圖製作\",\"片尾動畫製作\"]}],\"tags\":[\"AI\",\"AE\",\"PS\",\"PR\"]}]");
 
 /***/ }),
 
@@ -30685,6 +30685,38 @@ var lqip = { "src": "/_next/static/images/work-a3f328b6d1eea86161c4db1119c7f51d.
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/jenny-9335df771b65f0e8d7cb4fc89ffa42b5.png";
+
+/***/ }),
+
+/***/ "./static/js/youtube.js":
+/*!******************************!*\
+  !*** ./static/js/youtube.js ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function labnolThumb(id) {
+  return '<img class="youtube-thumb" src="//i.ytimg.com/vi/' + id + '/hqdefault.jpg"><div class="play-button"></div>';
+}
+
+function labnolIframe() {
+  var iframe = document.createElement('iframe');
+  iframe.setAttribute('src', '//www.youtube.com/embed/' + this.parentNode.dataset.id + '?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&showinfo=0');
+  iframe.setAttribute('frameborder', '0');
+  iframe.setAttribute('id', 'youtube-iframe');
+  this.parentNode.replaceChild(iframe, this);
+}
+
+window.onload = function () {
+  var v = document.getElementsByClassName('youtube-player');
+
+  for (var n = 0; n < v.length; n++) {
+    var p = document.createElement('div');
+    p.innerHTML = labnolThumb(v[n].dataset.id);
+    p.onclick = labnolIframe;
+    v[n].appendChild(p);
+  }
+};
 
 /***/ }),
 
