@@ -281,28 +281,7 @@
     ],
     "tags": ["AI", "AE", "PS", "PR"]
   },
-  {
-    "id": 26,
-    "theme": "portfolio",
-    "photos": [
-      { "id": 10, "src": "images/portfolio/demo/1001.png" },
-      { "id": 20, "src": "images/portfolio/demo/1002.png" }
-    ],
-    "content": [
-      {
-        "h5": "作品名稱",
-        "list_ul": ["抗病菌耐衝擊鋼化玻璃保護貼"]
-      },
-      {
-        "youtube_id": "8BbrtLwuYJc"
-      },
-      {
-        "h5": "負責項目",
-        "list_ul": ["剪輯、拍攝、動畫"]
-      }
-    ],
-    "tags": ["AI", "AE", "PS", "PR"]
-  },
+
   {
     "id": 50,
     "theme": "work",
