@@ -29851,6 +29851,8 @@ var map = {
 	"./images/portfolio/demo/0902.png": "./static/images/portfolio/demo/0902.png",
 	"./images/portfolio/demo/1001.png": "./static/images/portfolio/demo/1001.png",
 	"./images/portfolio/demo/1002.png": "./static/images/portfolio/demo/1002.png",
+	"./images/portfolio/demo/1101.png": "./static/images/portfolio/demo/1101.png",
+	"./images/portfolio/demo/1102.png": "./static/images/portfolio/demo/1102.png",
 	"./images/portfolio/demo/148.jpg": "./static/images/portfolio/demo/148.jpg",
 	"./images/portfolio/demo/about.jpg": "./static/images/portfolio/demo/about.jpg",
 	"./images/portfolio/demo/hobbies.jpg": "./static/images/portfolio/demo/hobbies.jpg",
@@ -29906,10 +29908,10 @@ module.exports = [{"id":10,"site":"linkedin","href":"https://tw.linkedin.com"},{
 /*!*************************************!*\
   !*** ./static/data/experience.json ***!
   \*************************************/
-/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, default */
+/*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, default */
 /***/ (function(module) {
 
-module.exports = [{"id":5,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/148.jpg"},{"id":20,"src":"images/portfolio/demo/jpn.jpg"},{"id":30,"src":"images/portfolio/demo/jpn1.png"}],"content":[{"h5":"作品名稱","list_ul":["2013日本亞洲國際兒童影展-欺凌"]},{"youtube_id":"5j5qenZt360"},{"h5":"負責項目","list_ul":["劇本發想、演員"]}],"tags":["AI","AE","PS","PR"]},{"id":10,"theme":"education","date":"2011/09 ~ 2014/06","title":"復興商工","subtitle":"廣告設計科","logo":"images/education/fhvs.jpg","content":[{"h5":"活動經歷","list_ul":["103年度 電影欣賞社社長"]},{"h5":"特殊表現","list_ul":["102 學年度復興商工元旦展 數位媒體類 佳作","102 年度 日本亞洲國際兒童影展 入選","103 年度 復興商工畢業展 數位媒體類 第二名"]}]},{"id":15,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/0102.png"},{"id":20,"src":"images/portfolio/demo/0101.png"}],"content":[{"h5":"作品名稱","list_ul":["2016資安系列競賽-變色騙"]},{"youtube_id":"xmsyPy1TIyE"},{"h5":"負責項目","list_ul":["導演、攝影、剪輯"]}],"tags":["AI","AE","PS","PR"]},{"id":16,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/0201.png"},{"id":20,"src":"images/portfolio/demo/0202.png"}],"content":[{"h5":"作品名稱","list_ul":["2016 LIFE2.0大迎新 預告片"]},{"youtube_id":"_APkcJ84sWg"},{"h5":"負責項目","list_ul":["剪輯"]}],"tags":["AI","AE","PS","PR"]},{"id":17,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/0303.jpg"},{"id":20,"src":"images/portfolio/demo/0301.png"}],"content":[{"h5":"作品名稱","list_ul":["2016資安系列競賽-魍拍"]},{"youtube_id":"yVXMjrvW4T4"},{"h5":"負責項目","list_ul":["副導、編劇、攝影"]}],"tags":["AI","AE","PS","PR"]},{"id":18,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/0401.png"},{"id":20,"src":"images/portfolio/demo/0402.png"}],"content":[{"h5":"作品名稱","list_ul":["牛頭牌60週年微電影競賽同學會"]},{"youtube_id":"OqGV3W9oY5g"},{"h5":"負責項目","list_ul":["導演、攝影、編劇"]}],"tags":["AI","AE","PS","PR"]},{"id":19,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/0501.png"},{"id":20,"src":"images/portfolio/demo/0502.png"}],"content":[{"h5":"作品名稱","list_ul":["2018 畢業歌-龍華波棒"]},{"youtube_id":"r_zbrnWc7po"},{"h5":"負責項目","list_ul":["導演、拍攝、歌詞撰寫"]}],"tags":["AI","AE","PS","PR"]},{"id":20,"theme":"education","date":"2014/09 ~ 2018/06","title":"龍華科技大學","subtitle":"文化創意與數位媒體設計系","logo":"images/education/lhu.png","content":[{"h5":"活動經歷","list_ul":["2015~2017 文創系系學會 執行秘書"]},{"h5":"特殊表現","list_ul":["2016 資安系列競賽 佳作"]}]},{"id":21,"theme":"portfolio","content":[{"h5":"作品名稱","list_ul":["片尾動畫製作"]},{"youtube_id":"Vch-F_yQIHI"},{"youtube_id":"z_n7g6NVdlc"},{"h5":"負責項目","list_ul":["動畫"]}],"tags":["AI","AE","PS","PR"]},{"id":22,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/0601.png"},{"id":20,"src":"images/portfolio/demo/0602.png"}],"content":[{"h5":"作品名稱","list_ul":["【淨毒五郎】酵素消臭洗衣精"]},{"youtube_id":"NFtVq860j1M"},{"h5":"負責項目","list_ul":["剪輯、 拍攝、腳本文案"]}],"tags":["AI","AE","PS","PR"]},{"id":23,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/0701.png"},{"id":20,"src":"images/portfolio/demo/0702.png"}],"content":[{"h5":"作品名稱","list_ul":["波比兒童AI智能機器人"]},{"youtube_id":"kjETphBUOsM"},{"h5":"負責項目","list_ul":["剪輯、 拍攝"]}],"tags":["AI","AE","PS","PR"]},{"id":24,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/0801.png"},{"id":20,"src":"images/portfolio/demo/0802.png"}],"content":[{"h5":"作品名稱","list_ul":["Summer Infant 自主學習小馬桶"]},{"youtube_id":"RrbD1r2Sk5k"},{"h5":"負責項目","list_ul":["剪輯、拍攝、腳本文案"]}],"tags":["AI","AE","PS","PR"]},{"id":25,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/0901.png"},{"id":20,"src":"images/portfolio/demo/0902.png"}],"content":[{"h5":"作品名稱","list_ul":["創意重複多層畫本"]},{"youtube_id":"KZ3mvWuWtis"},{"h5":"負責項目","list_ul":["剪輯、拍攝、腳本文案"]}],"tags":["AI","AE","PS","PR"]},{"id":26,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/1001.png"},{"id":20,"src":"images/portfolio/demo/1002.png"}],"content":[{"h5":"作品名稱","list_ul":["抗病菌耐衝擊鋼化玻璃保護貼"]},{"youtube_id":"8BbrtLwuYJc"},{"h5":"負責項目","list_ul":["剪輯、拍攝、動畫"]}],"tags":["AI","AE","PS","PR"]},{"id":50,"theme":"work","date":"2018/07 - present","title":"MamiBuy_紳太國際資訊股份有限公司","subtitle":"影音製作人","logo":"images/education/MMB.png","content":[{"h5":"部門","list_ul":["數位行銷中心"]},{"h5":"工作項目：","list_ul":["開箱影片畫面設計","開箱影片拍攝與剪輯","影片文案撰寫","影片首圖製作","片尾動畫製作"]}],"tags":["AI","AE","PS","PR"]}];
+module.exports = [{"id":5,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/148.jpg"},{"id":20,"src":"images/portfolio/demo/jpn.jpg"},{"id":30,"src":"images/portfolio/demo/jpn1.png"}],"content":[{"h5":"作品名稱","list_ul":["2013日本亞洲國際兒童影展-欺凌"]},{"youtube_id":"5j5qenZt360"},{"h5":"負責項目","list_ul":["劇本發想、演員"]}],"tags":["AI","AE","PS","PR"]},{"id":10,"theme":"education","date":"2011/09 ~ 2014/06","title":"復興商工","subtitle":"廣告設計科","logo":"images/education/fhvs.jpg","content":[{"h5":"活動經歷","list_ul":["103年度 電影欣賞社社長"]},{"h5":"特殊表現","list_ul":["102 學年度復興商工元旦展 數位媒體類 佳作","102 年度 日本亞洲國際兒童影展 入選","103 年度 復興商工畢業展 數位媒體類 第二名"]}]},{"id":15,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/0102.png"},{"id":20,"src":"images/portfolio/demo/0101.png"}],"content":[{"h5":"作品名稱","list_ul":["2016資安系列競賽-變色騙"]},{"youtube_id":"xmsyPy1TIyE"},{"h5":"負責項目","list_ul":["導演、攝影、剪輯"]}],"tags":["AI","AE","PS","PR"]},{"id":16,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/0201.png"},{"id":20,"src":"images/portfolio/demo/0202.png"}],"content":[{"h5":"作品名稱","list_ul":["2016 LIFE2.0大迎新 預告片"]},{"youtube_id":"_APkcJ84sWg"},{"h5":"負責項目","list_ul":["剪輯"]}],"tags":["AI","AE","PS","PR"]},{"id":17,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/0303.jpg"},{"id":20,"src":"images/portfolio/demo/0301.png"}],"content":[{"h5":"作品名稱","list_ul":["2016資安系列競賽-魍拍"]},{"youtube_id":"yVXMjrvW4T4"},{"h5":"負責項目","list_ul":["副導、編劇、攝影"]}],"tags":["AI","AE","PS","PR"]},{"id":18,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/0401.png"},{"id":20,"src":"images/portfolio/demo/0402.png"}],"content":[{"h5":"作品名稱","list_ul":["牛頭牌60週年微電影競賽同學會"]},{"youtube_id":"OqGV3W9oY5g"},{"h5":"負責項目","list_ul":["導演、攝影、編劇"]}],"tags":["AI","AE","PS","PR"]},{"id":19,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/0501.png"},{"id":20,"src":"images/portfolio/demo/0502.png"}],"content":[{"h5":"作品名稱","list_ul":["2018 畢業歌-龍華波棒"]},{"youtube_id":"r_zbrnWc7po"},{"h5":"負責項目","list_ul":["導演、拍攝、歌詞撰寫"]}],"tags":["AI","AE","PS","PR"]},{"id":20,"theme":"education","date":"2014/09 ~ 2018/06","title":"龍華科技大學","subtitle":"文化創意與數位媒體設計系","logo":"images/education/lhu.png","content":[{"h5":"活動經歷","list_ul":["2015~2017 文創系系學會 執行秘書"]},{"h5":"特殊表現","list_ul":["2016 資安系列競賽 佳作"]}]},{"id":21,"theme":"portfolio","content":[{"h5":"作品名稱","list_ul":["片尾動畫製作"]},{"youtube_id":"Vch-F_yQIHI"},{"youtube_id":"z_n7g6NVdlc"},{"h5":"負責項目","list_ul":["動畫"]}],"tags":["AI","AE","PS","PR"]},{"id":22,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/0601.png"},{"id":20,"src":"images/portfolio/demo/0602.png"}],"content":[{"h5":"作品名稱","list_ul":["【淨毒五郎】酵素消臭洗衣精"]},{"youtube_id":"NFtVq860j1M"},{"h5":"負責項目","list_ul":["剪輯、 拍攝、腳本文案"]}],"tags":["AI","AE","PS","PR"]},{"id":23,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/0701.png"},{"id":20,"src":"images/portfolio/demo/0702.png"}],"content":[{"h5":"作品名稱","list_ul":["波比兒童AI智能機器人"]},{"youtube_id":"kjETphBUOsM"},{"h5":"負責項目","list_ul":["剪輯、 拍攝"]}],"tags":["AI","AE","PS","PR"]},{"id":24,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/0801.png"},{"id":20,"src":"images/portfolio/demo/0802.png"}],"content":[{"h5":"作品名稱","list_ul":["Summer Infant 自主學習小馬桶"]},{"youtube_id":"RrbD1r2Sk5k"},{"h5":"負責項目","list_ul":["剪輯、拍攝、腳本文案"]}],"tags":["AI","AE","PS","PR"]},{"id":25,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/0901.png"},{"id":20,"src":"images/portfolio/demo/0902.png"}],"content":[{"h5":"作品名稱","list_ul":["創意重複多層畫本"]},{"youtube_id":"KZ3mvWuWtis"},{"h5":"負責項目","list_ul":["剪輯、拍攝、腳本文案"]}],"tags":["AI","AE","PS","PR"]},{"id":26,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/1001.png"},{"id":20,"src":"images/portfolio/demo/1002.png"}],"content":[{"h5":"作品名稱","list_ul":["抗病菌耐衝擊鋼化玻璃保護貼"]},{"youtube_id":"8BbrtLwuYJc"},{"h5":"負責項目","list_ul":["剪輯、拍攝、動畫"]}],"tags":["AI","AE","PS","PR"]},{"id":27,"theme":"portfolio","photos":[{"id":10,"src":"images/portfolio/demo/1101.png"},{"id":20,"src":"images/portfolio/demo/1102.png"}],"content":[{"h5":"作品名稱","list_ul":["摺疊傘吸水收納袋"]},{"youtube_id":"sqRNbpRlNPk"},{"h5":"負責項目","list_ul":["剪輯、拍攝、動畫"]}],"tags":["AI","AE","PS","PR"]},{"id":50,"theme":"work","date":"2018/07 - present","title":"MamiBuy_紳太國際資訊股份有限公司","subtitle":"影音製作人","logo":"images/education/MMB.png","content":[{"h5":"部門","list_ul":["數位行銷中心"]},{"h5":"工作項目：","list_ul":["開箱影片畫面設計","開箱影片拍攝與剪輯","影片文案撰寫","影片首圖製作","片尾動畫製作"]}],"tags":["AI","AE","PS","PR"]}];
 
 /***/ }),
 
@@ -30006,6 +30008,8 @@ var map = {
 	"./portfolio/demo/0902.png": "./static/images/portfolio/demo/0902.png?lqip",
 	"./portfolio/demo/1001.png": "./static/images/portfolio/demo/1001.png?lqip",
 	"./portfolio/demo/1002.png": "./static/images/portfolio/demo/1002.png?lqip",
+	"./portfolio/demo/1101.png": "./static/images/portfolio/demo/1101.png?lqip",
+	"./portfolio/demo/1102.png": "./static/images/portfolio/demo/1102.png?lqip",
 	"./portfolio/demo/148.jpg": "./static/images/portfolio/demo/148.jpg?lqip",
 	"./portfolio/demo/about.jpg": "./static/images/portfolio/demo/about.jpg?lqip",
 	"./portfolio/demo/hobbies.jpg": "./static/images/portfolio/demo/hobbies.jpg?lqip",
@@ -30076,6 +30080,8 @@ var map = {
 	"./portfolio/demo/0902.png": "./static/images/portfolio/demo/0902.png",
 	"./portfolio/demo/1001.png": "./static/images/portfolio/demo/1001.png",
 	"./portfolio/demo/1002.png": "./static/images/portfolio/demo/1002.png",
+	"./portfolio/demo/1101.png": "./static/images/portfolio/demo/1101.png",
+	"./portfolio/demo/1102.png": "./static/images/portfolio/demo/1102.png",
 	"./portfolio/demo/148.jpg": "./static/images/portfolio/demo/148.jpg",
 	"./portfolio/demo/about.jpg": "./static/images/portfolio/demo/about.jpg",
 	"./portfolio/demo/hobbies.jpg": "./static/images/portfolio/demo/hobbies.jpg",
@@ -30765,6 +30771,50 @@ module.exports = "/_next/static/images/1002-94242d96de37f26fadf5afdaf12e259a.png
 /***/ (function(module, exports) {
 
 var lqip = { "src": "/_next/static/images/1002-94242d96de37f26fadf5afdaf12e259a.png", "preSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAADNSURBVAXBy06DQABA0QtMdQyFPpASk9qVGjf1Q/xhP8C1G42uXNRE29T4gCKZFzN4TrS9fxjunl9wvsc5i00E6cmEoXfcrHLW10uEyIjl+ZLpJIMh4KIRf3aEaI8Zy4xPk6BVoLeaWOQpZbWgOTRY3ZOqS1w3Z1WeoUJM3R4Y0MQRUFYV+689ymi8tQwSvoPBK83r2w7btYjgPcV8xqw85apYMJaK/AiaWvO03fD488764hZhncUYQ1UUbJodNB8IkSBFTB5qptLR1b/8AxjqYrwtuhfyAAAAAElFTkSuQmCC" }; module.exports = lqip.preSrc; module.exports = Object.assign(module.exports, lqip);
+
+/***/ }),
+
+/***/ "./static/images/portfolio/demo/1101.png":
+/*!***********************************************!*\
+  !*** ./static/images/portfolio/demo/1101.png ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/1101-be609fefe4d006a5477189f70959b1c2.png";
+
+/***/ }),
+
+/***/ "./static/images/portfolio/demo/1101.png?lqip":
+/*!****************************************************!*\
+  !*** ./static/images/portfolio/demo/1101.png?lqip ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var lqip = { "src": "/_next/static/images/1101-be609fefe4d006a5477189f70959b1c2.png", "preSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAADzSURBVAXBwSuDYRzA8e/v2bN3s/fwNrV5m4OD7LActEhzkRyUHB0d5Mrd1dUf4OS/QEpKsZJdRk0cSOHNjLSl93155n33+nzk6/Is0U6MGEGNTWHiAUopRCnMi4f8BqTsLDo9XiEZxBg/4PH+g/rFMbW5aSbKZaySS9+EJCJo0hl63S4np3WaN8943iuHB0esb6xRLBbodNq4rouOogjLsmhcndNqPYBkGC05/Pzlad4GLC3WyOWE1PbW5o58vlOdrGCLIa8jFmZnyIrNUPTN3fUT+YKNTsIA1TcMa8Xq8gp+GOC9tfF7bRy7wHx1hN39Pf4BfRFYhgHUKWAAAAAASUVORK5CYII=" }; module.exports = lqip.preSrc; module.exports = Object.assign(module.exports, lqip);
+
+/***/ }),
+
+/***/ "./static/images/portfolio/demo/1102.png":
+/*!***********************************************!*\
+  !*** ./static/images/portfolio/demo/1102.png ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/1102-fd5a2b67bc97ff75c46764c3208c7013.png";
+
+/***/ }),
+
+/***/ "./static/images/portfolio/demo/1102.png?lqip":
+/*!****************************************************!*\
+  !*** ./static/images/portfolio/demo/1102.png?lqip ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var lqip = { "src": "/_next/static/images/1102-fd5a2b67bc97ff75c46764c3208c7013.png", "preSrc": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAGCAYAAAD68A/GAAAAAklEQVR4AewaftIAAADWSURBVAXBP0vDQByA4fd+SZO0g0VKVVwUlKCjg4OfXCioQ6lu4hIEafFPEWPaO2NqbXKXGJ9Hvd9ctr2hzybf4IYnZEuDNhpfCZIbDvd2WdkS8Q9iVD/mRwZ4fkBlLZnWJA93hGFD2pQYFFKUDisB605IC1TrFZ4IF2fnlHlOfHRK3XpIli0wWnM7vib/MgS/hu/FJ2HUpSsK62qcdfgfacrs8Z7jXsRyPuNqPEGiPk+jCa9UNG2CeA5/+jxlqyl4m7/QqJZAKwbKUeOx3wn5KxJ2+tv8A4zhZq65afRGAAAAAElFTkSuQmCC" }; module.exports = lqip.preSrc; module.exports = Object.assign(module.exports, lqip);
 
 /***/ }),
 

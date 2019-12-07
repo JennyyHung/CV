@@ -304,6 +304,28 @@
     "tags": ["AI", "AE", "PS", "PR"]
   },
   {
+    "id": 27,
+    "theme": "portfolio",
+    "photos": [
+      { "id": 10, "src": "images/portfolio/demo/1101.png" },
+      { "id": 20, "src": "images/portfolio/demo/1102.png" }
+    ],
+    "content": [
+      {
+        "h5": "作品名稱",
+        "list_ul": ["摺疊傘吸水收納袋"]
+      },
+      {
+        "youtube_id": "sqRNbpRlNPk"
+      },
+      {
+        "h5": "負責項目",
+        "list_ul": ["剪輯、拍攝、動畫"]
+      }
+    ],
+    "tags": ["AI", "AE", "PS", "PR"]
+  },
+  {
     "id": 50,
     "theme": "work",
     "date": "2018/07 - present",
