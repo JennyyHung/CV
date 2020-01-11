@@ -326,6 +326,28 @@
     "tags": ["AI", "AE", "PS", "PR"]
   },
   {
+    "id": 28,
+    "theme": "portfolio",
+    "photos": [
+      { "id": 10, "src": "images/portfolio/demo/1201.png" },
+      { "id": 20, "src": "images/portfolio/demo/1202.png" }
+    ],
+    "content": [
+      {
+        "h5": "作品名稱",
+        "list_ul": ["迪士尼派對包"]
+      },
+      {
+        "youtube_id": "yPM-nWA9lJo"
+      },
+      {
+        "h5": "負責項目",
+        "list_ul": ["文案、剪輯、拍攝、動畫"]
+      }
+    ],
+    "tags": ["AI", "AE", "PS", "PR"]
+  },
+  {
     "id": 50,
     "theme": "work",
     "date": "2018/07 - present",
